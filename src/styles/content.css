@@ -1,0 +1,42 @@
+.content {
+    width: 568px;
+    float: right;
+    text-align: justify;
+}
+
+.content {
+    padding: 10px 20px;
+}
+
+.content h2 {
+    color: #FF4800;
+    font-size: 20px;
+    letter-spacing: -3px;
+    font-weight: 100;
+    padding : 10px 0 15px 0;
+}
+
+.content-selector {
+    width: 150px;
+    float: left;
+    padding: 10px;
+    border-right: 1px solid #bbb;
+    font-size: 12px;
+}
+
+
+.content-selector ul {
+    list-style-type: square;
+    padding: 5px 10px 10px 20px;
+    color: #57626a;
+}
+
+.content-selector h2 {
+    height: 30px;
+    font-size: 14px;
+    color: #666;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.content-selector a { text-decoration: none }
