@@ -6,7 +6,7 @@
 import React from 'react'
 
 const Footer = () =>
-    <div className="ui message center aligned" >
+    <div className="ui center aligned segment" >
         mail to: &nbsp;opwallin (at) gmail.com
     </div>
 export default Footer
