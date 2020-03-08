@@ -6,7 +6,7 @@ import React from 'react'
 
 const Technic = () => <div>
 
-    <h4> Lämmönjakeskus </h4>
+    <h3> Lämmönjakeskus </h3>
     <p>Varsinaisen lämmityksen lisäksi tarvitaan siis lämmönjakokeskus joka huolehtii lämpimän veden lämmityksestä ja joka välittää kulloinkin ajankohtaan sopivan määrän kaukolämpöä ilmalämmityslaitteen vesipatteristoon. Suomessa lämmönjakokeskus laitteiden valmistajia on jonkun verran markkinoilla. Ilmalämmistystaloissa jotka on liitetty kaukolämpöverkostoon, lämmönjakokeskuksen tyyppi tulisi olla vähintään ns. 2-piirinen. </p>
     <p>Tällöin lämmönsääätöä voidaan tehdä erikseen lämpimälle vedelle ilman että se häiritsee varsinaista huoneiston lämmitystä.</p>
 
@@ -28,12 +28,16 @@ const Technic = () => <div>
 
     <p>Puhaltimesta käy Ebmpast, mallinumero  D2E 133-AM47-01. Puhaltimen mukana pitäisi tulla 3mikroF kondesaattori (jota itse asiassa ei asenneta vaan se jää hyllyn koristeeksi.) Asennus mielellään osaavan LVI asentajan toimesta, kätisyys voidaan muuttaa laitteelle sopivaksi. Kysy Vallox:ilta taikka LVI myymälästä.</p>
 
-    <h4>Lämminilmapuhallin</h4>
-    <p>Lämminilmapuhallin sijaitsee  koneiston alaosassa, lämmityspatteriston yläpuolellla.</p>
+    <h5>Lämminilmapuhallin</h5>
 
-    <h3>Lämminilmapuhallin</h3>
+    <p> Lämminilmapuhallin sijaitsee  koneiston alaosassa, lämmityspatteriston yläpuolellla.</p>
+
+    <h4> Lämpimän ilman siirto </h4>
     <p> Lämmin ilma tuodaan taloon ilmakanavia pitkin jotka on upotettu yksikerroksisessa talossa sokkeliin valun yhteydessä. Nämä ilmakanavat tulisi puhdistaa ainakin kerran 15 vuodessa asiaan erikoistuneen huoltoliikkeen toimesta. Jotkut nuohoojat tarjoavat myöskin kanaviston puhdistuspalveluita joten kannattaa kysellä hintoja sekä mahdollisuutta puhdistuksiin myöskin alueesi nuohoojilta.</p>
-    <p>  </p>
+
+    <h4>Käytetty ilma </h4>
+    <p> Käytetty ilma poistetaan talosta tai huoneiston harmaiden tilojen kautta takaisin ilmalämmityskoneeseen joka ottaa parhaansa mukaan lämmön talteen ja esilämmittää mahdollisuuksiensa mukaan raaka-ilman.</p>
+    <h3> Huolto </h3>
     <p> Karkeasti voidaan sanoa että erikoisfirmojen palveluita voidaan käyttää ympäri vuoden ja nuohoojien palveluita kesäaikaan.</p>
 
     <h4></h4>
