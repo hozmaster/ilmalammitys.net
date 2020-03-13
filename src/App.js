@@ -17,7 +17,7 @@ function App() {
     return (
         <Router>
             <div className="App">
-                <div className="ui raised very padded text container segment">
+                <div className="ui raised very padded text container">
                     <div className="ui five item menu">
                         <a href={"/"}className="active item">Home</a>
                         <a href={'/tekniikka'} className="item">Tekniikka</a>
@@ -25,6 +25,7 @@ function App() {
                         <a href={'/tiedostot'} className="item">Tiedostot</a>
                         <a href={'/palaute'} className="item">Palaute</a>
                     </div>
+                    <p> </p>
                     <Route exact path='/' component={Home}/>
                     <Route path='/tekniikka' component={Technic}/>
                     <Route path='/tiedostot' component={Fileslistings}/>
