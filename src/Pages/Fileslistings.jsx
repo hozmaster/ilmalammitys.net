@@ -6,24 +6,29 @@ import React from 'react'
 import { List, Container } from 'semantic-ui-react'
 
 class FileListings extends React.Component{
-    state = {
-        HeaterModels: {
-            "parma10": {
-                "name" : "Parma 10",
-                "files" : {
-                    "Document 1": {
-                        "title" : "Document 10",
-                        "file" : "foo.pdf"
+    
+    constructor (props) {
+        super(props);
+        this.state = {
+            user_titles: ["title1", "title2"],
+            heater_models: {
+                "parma10": {
+                    "name": "Parma 10",
+                    "files": {
+                        "Document 1": {
+                            "title": "Document 10",
+                            "file": "foo.pdf"
+                        }
                     }
                 }
             }
-        }
-    };
+        };
+    }
 
     displayFileListing = () =>
-        // this.state.HeaterModels.map((el,l ) => (
-            <List.Item active> Parma 10</List.Item>;
-    // );
+        this.state.user_titles.map((el,l ) => (
+            <List.Item active> Parma 10 </List.Item>
+    ));
 
     render() {
         return <div>
