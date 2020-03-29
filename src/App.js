@@ -5,7 +5,8 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+    Link,
+    NavLink,
 } from "react-router-dom";
 
 import Home from "./Pages/Home";
@@ -21,11 +22,11 @@ function App() {
             <div className="App">
                 <div className="ui raised very padded text container">
                     <div className="ui five item menu">
-                        <Link to="/" className="active item">Home</Link>{' '}
-                        <Link to="/tekniikka" className="item">Tekniikka</Link>{' '}
-                        <Link to={'/tiedostot'} className="item">Tiedostot</Link>{' '}
-                        <Link to={'/valmistajat'} className="item">Valmistajat</Link>{' '}
-                        <Link to={'/palaute'} className="item">Palaute</Link>{' '}
+                        <NavLink exact to="/" activeClassName="active" className="item">Home</NavLink>{' '}
+                        <NavLink exact to="/tekniikka" activeClassName="active" className="item">Tekniikka</NavLink>{' '}
+                        <NavLink exact to={'/tiedostot'} activeClassName="active" className="item">Tiedostot</NavLink>{' '}
+                        <NavLink exact to={'/valmistajat'} activeClassName="active" className="item">Valmistajat</NavLink>{' '}
+                        <NavLink exact to={'/palaute'} activeClassName="active" className="item">Palaute</NavLink>{' '}
                     </div>
                     <p> </p>
                     <Switch>
