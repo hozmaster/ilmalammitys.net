@@ -11,7 +11,7 @@ import {
 import Home from "./Pages/Home";
 import TechnicInfo from "./Pages/Technic";
 import FileListings from "./Pages/FileListings"
-import Manufacturing from "./Pages/Manufacturing";
+import Manufacturers from "./Pages/Manufacturers";
 import Feedback from "./Pages/Feedback";
 import Footer from "./Components/Footer";
 
@@ -32,7 +32,7 @@ function App() {
                         <Route exact path="/" component={Home}/>
                         <Route path='/tekniikka'  component={TechnicInfo}/>
                         <Route path='/tiedostot' component={FileListings}/>
-                        <Route path='/valmistajat' component={Manufacturing}/>
+                        <Route path='/valmistajat' component={Manufacturers}/>
                         <Route path='/palaute' component={Feedback}/>
                     </Switch>
                     <Footer/>
