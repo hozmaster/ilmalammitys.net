@@ -3,21 +3,21 @@ import React from 'react';
 
 import {
     BrowserRouter as Router,
-    Route,
-    Link,
     Switch,
-} from 'react-router-dom'
+    Route,
+    Link
+} from "react-router-dom";
 
 import Home from "./Pages/Home";
-import Technic from "./Pages/Technic";
-import FileListings from "./Pages/Filelistings"
+import TechnicInfo from "./Pages/Technic";
+import FileListings from "./Pages/FileListings"
 import Manufacturing from "./Pages/Manufacturing";
 import Feedback from "./Pages/Feedback";
 import Footer from "./Components/Footer";
 
 function App() {
     return (
-        <Router>
+        <Router >
             <div className="App">
                 <div className="ui raised very padded text container">
                     <div className="ui five item menu">
@@ -29,8 +29,8 @@ function App() {
                     </div>
                     <p> </p>
                     <Switch>
-                        <Route path="/"> </Home>
-                        <Route path='/tekniikka' component={Technic}/>
+                        <Route exact path="/" component={Home}/>
+                        <Route path='/tekniikka'  component={TechnicInfo}/>
                         <Route path='/tiedostot' component={FileListings}/>
                         <Route path='/valmistajat' component={Manufacturing}/>
                         <Route path='/palaute' component={Feedback}/>
@@ -40,19 +40,6 @@ function App() {
             </div>
         </Router>
     );
-}
-
-
-function Home() {
-    return <h2>Home</h2>;
-}
-
-function About() {
-    return <h2>About</h2>;
-}
-
-function Users() {
-    return <h2>Users</h2>;
 }
 
 export default App;
