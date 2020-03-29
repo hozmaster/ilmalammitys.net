@@ -4,12 +4,13 @@ import React from 'react';
 import {
     BrowserRouter as Router,
     Route,
-    Link
+    Link,
+    Switch,
 } from 'react-router-dom'
 
 import Home from "./Pages/Home";
 import Technic from "./Pages/Technic";
-import Fileslistings from "./Pages/Fileslistings"
+import FileListings from "./Pages/Filelistings"
 import Manufacturing from "./Pages/Manufacturing";
 import Feedback from "./Pages/Feedback";
 import Footer from "./Components/Footer";
@@ -20,23 +21,38 @@ function App() {
             <div className="App">
                 <div className="ui raised very padded text container">
                     <div className="ui five item menu">
-                        <a href={"/"}className="active item">Home</a>
-                        <a href={'/tekniikka'} className="item">Tekniikka</a>
-                        <a href={'/tiedostot'} className="item">Tiedostot</a>
-                        <a href={'/valmistajat'} className="item">Valmistajat</a>
-                        <a href={'/palaute'} className="item">Palaute</a>
+                        <Link to="/" className="active item">Home</Link>{' '}
+                        <Link to="/tekniikka" className="item">Tekniikka</Link>{' '}
+                        <Link to={'/tiedostot'} className="item">Tiedostot</Link>{' '}
+                        <Link to={'/valmistajat'} className="item">Valmistajat</Link>{' '}
+                        <Link to={'/palaute'} className="item">Palaute</Link>{' '}
                     </div>
                     <p> </p>
-                    <Route exact path='/' component={Home}/>
-                    <Route path='/tekniikka' component={Technic}/>
-                    <Route path='/tiedostot' component={Fileslistings}/>
-                    <Route path='/valmistajat' component={Manufacturing}/>
-                    <Route path='/palaute' component={Feedback}/>
+                    <Switch>
+                        <Route path="/"> </Home>
+                        <Route path='/tekniikka' component={Technic}/>
+                        <Route path='/tiedostot' component={FileListings}/>
+                        <Route path='/valmistajat' component={Manufacturing}/>
+                        <Route path='/palaute' component={Feedback}/>
+                    </Switch>
                     <Footer/>
                 </div>
             </div>
         </Router>
     );
+}
+
+
+function Home() {
+    return <h2>Home</h2>;
+}
+
+function About() {
+    return <h2>About</h2>;
+}
+
+function Users() {
+    return <h2>Users</h2>;
 }
 
 export default App;
