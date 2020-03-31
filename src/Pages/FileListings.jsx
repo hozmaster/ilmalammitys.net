@@ -3,13 +3,14 @@
  */
 
 import React from 'react'
-import { List, Container } from 'semantic-ui-react'
+import {List, Container, Icon, Accordion } from 'semantic-ui-react'
 
-class FileListings extends React.Component{
-    
-    constructor (props) {
+class FileListings extends React.Component {
+
+    constructor(props) {
         super(props);
         this.state = {
+            activeIndex: 0,
             user_titles: ["title1", "title2"],
             heater_models: {
                 "parma10": {
@@ -25,22 +26,57 @@ class FileListings extends React.Component{
         };
     }
 
+
+    handleClick = (e, titleProps) => {
+        const { index } = titleProps
+        const { activeIndex } = this.state
+        const newIndex = activeIndex === index ? -1 : index
+
+        this.setState({ activeIndex: newIndex })
+    }
+    
     displayFileListing = () =>
-        this.state.user_titles.map((el,l ) => (
+        this.state.user_titles.map((el, l) => (
             <List.Item active> Parma 10 </List.Item>
-    ));
+        ));
 
     render() {
+        const { activeIndex } = this.state;
+
         return <div>
-             <p> </p>
-             <h3 className="ui header">Tiedostot</h3>
-               <Container textAlign='justified'> Nämä tiedostot on saatu useiden yksityisten käyttäjien toimesta pitkän ajan kuluessa. Nämä näyttävät oikeilta päällisin puolin ... mutta ... En kuitenkaan pysty takaamaan esim sähkökaavioiden tai muiden tiedostojen oikeellisuutta sekä turvallisuutta joten ymmärtänet sen että käytät näitä tiedostoja omalla vastuulla.  </Container>
-               <p> </p>
-                <Container textAlign={"justified"}>Erittäin suuret kiitokset tiedostojen lähettäjille.</Container>
-                <List link>
+            <p></p>
+            <h3 className="ui header">Tiedostot</h3>
+            <Container textAlign='justified'> Nämä tiedostot on saatu useiden yksityisten käyttäjien toimesta pitkän
+                ajan kuluessa. Nämä näyttävät oikeilta päällisin puolin ... mutta ... En kuitenkaan pysty takaamaan esim
+                sähkökaavioiden tai muiden tiedostojen oikeellisuutta sekä turvallisuutta joten ymmärtänet sen että
+                käytät näitä tiedostoja omalla vastuulla. </Container>
+            <p></p>
+            <Container textAlign={"justified"}>Erittäin suuret kiitokset tiedostojen lähettäjille.</Container>
+            <List link>
+                {this.displayFileListing()}
+            </List>
+            <Accordion>
+                <Accordion.Title
+                    active={activeIndex === 0}
+                    index={0}
+                    onClick={this.handleClick} >
+                    <Icon name='dropdown' />
+                    Parma 10
+                </Accordion.Title>
+                <Accordion.Content active={activeIndex === 0} >
                     {this.displayFileListing()}
-                </List>
-            </div>
+                </Accordion.Content>
+            </Accordion>
+            <Accordion>
+                <Accordion.Title
+                    active={activeIndex === 1}
+                    index={1}
+                    onClick={this.handleClick} >
+                    <Icon name='dropdown' />
+                    What is a dog?
+                </Accordion.Title>
+            </Accordion>
+        </div>
     }
 
 }
