@@ -5,13 +5,13 @@
 import React from 'react'
 import {Dropdown} from 'semantic-ui-react'
 
-import gadgetList from  './gadget_data';
+import gadgetList from '../../data/gadget_data';
 
 class FileListDropDown extends React.Component {
     render() {
         return (
             <Dropdown
-                placeholder='Select Friend'
+                placeholder='Valitse laite'
                 fluid
                 selection
                 options={gadgetList}>
