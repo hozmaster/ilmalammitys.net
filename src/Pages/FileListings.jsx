@@ -3,9 +3,9 @@
  */
 
 import React from 'react'
-import {List, Container, Icon, Accordion, BreadcrumbDivider} from 'semantic-ui-react'
-import Parma10Table from "./FileSections/Parma10Table";
-import DropdownExampleSelection from "./FileSections/DropdownExampleSelection";
+import {List, Container, } from 'semantic-ui-react'
+// import Parma10Table from "./FileSections/Parma10Table";
+import FileListDropDown from "./FileSections/FileListDropDown";
 
 class FileListings extends React.Component {
 
@@ -54,36 +54,10 @@ class FileListings extends React.Component {
                 käytät näitä tiedostoja omalla vastuulla. </Container>
             <p></p>
             <Container textAlign={"justified"}>Erittäin suuret kiitokset tiedostojen lähettäjille.</Container>
-
-            <BreadcrumbDivider/>
-            <List link>
-                {this.displayFileListing()}
-            </List>
-            <DropdownExampleSelection/>
-            <Accordion>
-                <Accordion.Title
-                    active={activeIndex === 0}
-                    index={0}
-                    onClick={this.handleClick} >
-                    <Icon name='dropdown' />
-                    Parma 10
-                </Accordion.Title>
-                <Accordion.Content active={activeIndex === 0} >
-                    {this.displayFileListing()}
-                </Accordion.Content>
-            </Accordion>
-            <Accordion>
-                <Accordion.Title
-                    active={activeIndex === 1}
-                    index={1}
-                    onClick={this.handleClick} >
-                    <Icon name='dropdown' />
-                    What is a dog?
-                </Accordion.Title>
-                <Accordion.Content active={activeIndex === 1} >
-                    <Parma10Table/>
-                </Accordion.Content>
-            </Accordion>
+            <p></p>
+            <p></p>
+            <FileListDropDown/>
+            <List id={"fooList"}>            </List>
         </div>
     }
 
