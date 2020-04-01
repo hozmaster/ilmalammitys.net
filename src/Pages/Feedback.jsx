@@ -3,10 +3,12 @@
  */
 
 import React from 'react'
-import {Container} from "semantic-ui-react";
+import {Container, Header} from "semantic-ui-react";
 
 const Feedback = () => <div>
     <p> </p>
+    <Header as={"h3"} > Linkit </Header>
+    
     <h3 className="ui header">Palaute</h3>
     <h4>Nim. "ROT"</h4>
     <Container textAlign={"justified"}>Jo vuonna 1980 Hankkijan ja Puolimatkan Rakennusvalmiste Oy:n välillä oli läheistä yhteistyötä ja yksi ilmentymä oli PARMA-ilmalämmitysjärjestelmän markkinointi. Meille asennettiin ko. järjestelmä vuonna 1980 omakotitaloon.  Lämmönlähteenä oli 3000L Galvanoimis Oy:n lämminvesivaraaja. Järjestelmä on ollut sellaisenaan käytössä kesään 2014 saakka, jolloin varaaja korvattiin alkukesästä Thermian maalämpölaitteistolla. Tekstisi lopussa annat melko varovaisen suosituksen ilmalämmityksen riittävyydestä omakotitaloon.  Turhaa varovaisuutta. Jos talon eristykset ovat kunnossa ja talossa kohtuullinen määrä lämpöä varaavaa massaa pärjää ilmalämmitys erinomaisesti kovimmillakin pakkasilla. Ja mikä tärkeintä ilmalämmityksen energiankulutus on erittäin kilpailukykyinen.</Container>

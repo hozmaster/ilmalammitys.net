@@ -25,7 +25,7 @@ function App() {
                         <NavLink exact to="/tekniikka" activeClassName="active" className="item">Tekniikka</NavLink>{' '}
                         <NavLink exact to={'/tiedostot'} activeClassName="active" className="item">Tiedostot</NavLink>{' '}
                         <NavLink exact to={'/valmistajat'} activeClassName="active" className="item">Valmistajat</NavLink>{' '}
-                        <NavLink exact to={'/palaute'} activeClassName="active" className="item">Palaute</NavLink>{' '}
+                        <NavLink exact to={'/yleista'} activeClassName="active" className="item">Yleistä</NavLink>{' '}
                     </div>
                     <p> </p>
                     <Switch>
