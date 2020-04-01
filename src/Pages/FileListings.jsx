@@ -3,7 +3,9 @@
  */
 
 import React from 'react'
-import {List, Container, Icon, Accordion } from 'semantic-ui-react'
+import {List, Container, Icon, Accordion, BreadcrumbDivider} from 'semantic-ui-react'
+import Parma10Table from "./FileSections/Parma10Table";
+import DropdownExampleSelection from "./FileSections/DropdownExampleSelection";
 
 class FileListings extends React.Component {
 
@@ -52,9 +54,12 @@ class FileListings extends React.Component {
                 käytät näitä tiedostoja omalla vastuulla. </Container>
             <p></p>
             <Container textAlign={"justified"}>Erittäin suuret kiitokset tiedostojen lähettäjille.</Container>
+
+            <BreadcrumbDivider/>
             <List link>
                 {this.displayFileListing()}
             </List>
+            <DropdownExampleSelection/>
             <Accordion>
                 <Accordion.Title
                     active={activeIndex === 0}
@@ -75,6 +80,9 @@ class FileListings extends React.Component {
                     <Icon name='dropdown' />
                     What is a dog?
                 </Accordion.Title>
+                <Accordion.Content active={activeIndex === 1} >
+                    <Parma10Table/>
+                </Accordion.Content>
             </Accordion>
         </div>
     }
