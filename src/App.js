@@ -33,7 +33,7 @@ function App() {
                         <Route path='/tekniikka'  component={TechnicInfo}/>
                         <Route path='/tiedostot' component={FileListings}/>
                         <Route path='/valmistajat' component={Manufacturers}/>
-                        <Route path='/palaute' component={Feedback}/>
+                        <Route path='/yleista' component={Feedback}/>
                     </Switch>
                     <Footer/>
                 </div>
