@@ -8,7 +8,18 @@ import {Dropdown} from 'semantic-ui-react'
 
 import gadgetList from '../../data/gadget_data';
 
+import PropTypes from "prop-types"
+import { connect } from "react-redux"
+
+import {
+    changeActiveGadgetDevice
+} from '../../actions/index'
+
 class FileListDropDown extends React.Component {
+    // static propTypes = {
+    //     activeGadget: PropTypes.string.isRequired,
+    // };
+
     constructor(props) {
         super(props);
         this.state = {
@@ -20,12 +31,10 @@ class FileListDropDown extends React.Component {
         }
     }
 
-    handleChange = (e, data) => {
-        console.log (data.value);
-        this.setState(
-            {selectGadget: data.value} )
-    }
+    setCurrentSelectedValues = (e, data ) => {
 
+    };
+                                             
     render() {
         return (
             <Dropdown
@@ -33,7 +42,8 @@ class FileListDropDown extends React.Component {
                 fluid
                 selection
                 options={gadgetList}
-                onChange={this.handleChange}
+                onChange={(e, data) =>{this.setCurrentSelectedValues(e, data)}}
+                // onChange={this.handleChange}
             >
 
             </Dropdown>
@@ -41,4 +51,12 @@ class FileListDropDown extends React.Component {
     }
 }
 
+const controlStateToProps = state => {
+    const activeGadget = state.gadgetSelectionControls.activeGadgetDevice;
+    return {
+        activeGadget,
+    }
+};
+
 export default FileListDropDown;
+// export default connect(controlStateToProps)(FileListDropDown);
