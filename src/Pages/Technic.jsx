@@ -3,6 +3,7 @@
  */
 
 import React from 'react'
+import {Header} from "semantic-ui-react";
 
 const Technic = () => <div>
 
@@ -23,17 +24,18 @@ const Technic = () => <div>
 
     <p>Raitisilmapuhallin sijaitsee siis LTO kennon alapuolella laitteiston ovesta katsottuna vasemmalla. Tämä puhallin on selvästi pienempi kuin poistoilmapuhallin, ja tarvitsee 2mikroF kondesaattorin (siis Vallox:in mukaan, ainakaan meillä ei kodensaattoria asennettu). Käynnistyy yhtäaikasesti poistoilmapuhaltimen kanssa.</p>
 
-    <h5>Poistopuhallin</h5>
+    <Header as={"h5"}> Poistopuhallin </Header>
 
     <p>Poistoilmapuhallin sijaitsee TO kennostosta katsottuna oikealla puolella.</p>
 
     <p>Puhaltimesta käy Ebmpast, mallinumero  D2E 133-AM47-01. Puhaltimen mukana pitäisi tulla 3mikroF kondesaattori (jota itse asiassa ei asenneta vaan se jää hyllyn koristeeksi.) Asennus mielellään osaavan LVI asentajan toimesta, kätisyys voidaan muuttaa laitteelle sopivaksi. Kysy Vallox:ilta taikka LVI myymälästä.</p>
 
-    <h5>Lämminilmapuhallin</h5>
+    <Header as={"h5"}> Lämminilmapuhallin </Header>
 
     <p> Lämminilmapuhallin sijaitsee  koneiston alaosassa, lämmityspatteriston yläpuolellla.</p>
 
-    <h4> Lämpimän ilman siirto </h4>
+    <Header as={"h4"}> Lämpimän ilman siirto </Header>
+
     <p> Lämmin ilma tuodaan taloon ilmakanavia pitkin jotka on upotettu yksikerroksisessa talossa sokkeliin valun yhteydessä. Nämä ilmakanavat tulisi puhdistaa ainakin kerran 15 vuodessa asiaan erikoistuneen huoltoliikkeen toimesta. Jotkut nuohoojat tarjoavat myöskin kanaviston puhdistuspalveluita joten kannattaa kysellä hintoja sekä mahdollisuutta puhdistuksiin myöskin alueesi nuohoojilta.</p>
 
     <h4>Käytetty ilma </h4>
@@ -41,7 +43,7 @@ const Technic = () => <div>
     <h3> Huolto </h3>
     <p> Karkeasti voidaan sanoa että erikoisfirmojen palveluita voidaan käyttää ympäri vuoden ja nuohoojien palveluita kesäaikaan.</p>
 
-    <h4></h4>
+    <Header as={"h4"}> </Header>
 </div>;
 
 export default Technic

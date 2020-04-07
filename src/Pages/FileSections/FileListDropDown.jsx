@@ -24,6 +24,7 @@ class FileListDropDown extends React.Component {
         super(props);
         this.state = {
             selectGadget: '',
+            options: gadgetList,
             data: {
                 name: '',
                 subject: ''
@@ -36,13 +37,17 @@ class FileListDropDown extends React.Component {
     };
                                              
     render() {
+        const {
+            options
+        } = this.props;
+        
         return (
             <Dropdown
                 placeholder='Valitse laite'
                 fluid
                 selection
-                options={gadgetList}
-                onChange={(e, data) =>{this.setCurrentSelectedValues(e, data)}}
+                options={this.state.options}
+                // onChange={(e, data) =>{this.setCurrentSelectedValues(e, data)}}
                 // onChange={this.handleChange}
             >
 
@@ -51,12 +56,12 @@ class FileListDropDown extends React.Component {
     }
 }
 
-const controlStateToProps = state => {
-    const activeGadget = state.gadgetSelectionControls.activeGadgetDevice;
-    return {
-        activeGadget,
-    }
-};
+// const controlStateToProps = state => {
+//     const activeGadget = state.gadgetSelectionControls.activeGadgetDevice;
+//     return {
+//         activeGadget,
+//     }
+// };
 
 export default FileListDropDown;
 // export default connect(controlStateToProps)(FileListDropDown);
