@@ -8,19 +8,20 @@ import {Header} from "semantic-ui-react";
 const Technic = () => <div>
 
     <p> </p>
-    <h3> Lämmönjakeskus </h3>
+    <Header as={"h3"}> Lämmönjakeskus </Header>
+
     <p>Varsinaisen lämmityksen lisäksi tarvitaan siis lämmönjakokeskus joka huolehtii lämpimän veden lämmityksestä ja joka välittää kulloinkin ajankohtaan sopivan määrän kaukolämpöä ilmalämmityslaitteen vesipatteristoon. Suomessa lämmönjakokeskus laitteiden valmistajia on jonkun verran markkinoilla. Ilmalämmistystaloissa jotka on liitetty kaukolämpöverkostoon, lämmönjakokeskuksen tyyppi tulisi olla vähintään ns. 2-piirinen. </p>
     <p>Tällöin lämmönsääätöä voidaan tehdä erikseen lämpimälle vedelle ilman että se häiritsee varsinaista huoneiston lämmitystä.</p>
 
-    <h4> Ilmalämmityskone </h4>
+    <Header as={"h4"}> Ilmalämmityskone </Header>
 
     <p>Lämminilmakone jakaantuu karkeasti ottaen kolmeen osaan: LTO, puhaltimiin ja itse lämpimän ilman välittämiseen suunniteltuun puhaltimeen sekä kennostoon.</p>
 
-    <h5>Puhaltimet:</h5>
+    <Header as={"h5"}>Puhaltimet:</Header>
 
     <p>Laitteessa on siis ainakin kolme erilaista puhallinta: poistoilmanpuhallin, raitisilmapuhallin ja varsinainen lämminilmanpuhallin joka puhaltaa lämmitettävän ilman lämmityspatteriston lävitse talon ilmakanavavistoon.></p>
 
-    <h5>Raitisilmapuhallin</h5>
+    <Header as={"h5"}>Raitisilmapuhallin</Header>
 
     <p>Raitisilmapuhallin sijaitsee siis LTO kennon alapuolella laitteiston ovesta katsottuna vasemmalla. Tämä puhallin on selvästi pienempi kuin poistoilmapuhallin, ja tarvitsee 2mikroF kondesaattorin (siis Vallox:in mukaan, ainakaan meillä ei kodensaattoria asennettu). Käynnistyy yhtäaikasesti poistoilmapuhaltimen kanssa.</p>
 
@@ -38,7 +39,7 @@ const Technic = () => <div>
 
     <p> Lämmin ilma tuodaan taloon ilmakanavia pitkin jotka on upotettu yksikerroksisessa talossa sokkeliin valun yhteydessä. Nämä ilmakanavat tulisi puhdistaa ainakin kerran 15 vuodessa asiaan erikoistuneen huoltoliikkeen toimesta. Jotkut nuohoojat tarjoavat myöskin kanaviston puhdistuspalveluita joten kannattaa kysellä hintoja sekä mahdollisuutta puhdistuksiin myöskin alueesi nuohoojilta.</p>
 
-    <h4>Käytetty ilma </h4>
+    <Header as={"h4"}> Käytetty ilma </Header>
     <p> Käytetty ilma poistetaan talosta tai huoneiston harmaiden tilojen kautta takaisin ilmalämmityskoneeseen joka ottaa parhaansa mukaan lämmön talteen ja esilämmittää mahdollisuuksiensa mukaan raaka-ilman.</p>
     <h3> Huolto </h3>
     <p> Karkeasti voidaan sanoa että erikoisfirmojen palveluita voidaan käyttää ympäri vuoden ja nuohoojien palveluita kesäaikaan.</p>

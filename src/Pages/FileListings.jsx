@@ -15,11 +15,10 @@ class FileListings extends React.Component {
         };
     }
 
-
     handleClick = (e, titleProps) => {
-        const {index} = titleProps
-        const {activeIndex} = this.state
-        const newIndex = activeIndex === index ? -1 : index
+        const {index} = titleProps;
+        const {activeIndex} = this.state;
+        const newIndex = activeIndex === index ? -1 : index;
 
         this.setState({activeIndex: newIndex})
     }
