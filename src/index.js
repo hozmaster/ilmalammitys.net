@@ -19,12 +19,7 @@ let store = createStore(
     composeWithDevTools(applyMiddleware(...middleware))
 );
 
-
-// render(<App />, document.getElementById('root'));
-
-ReactDOM.
-
-render(
+ReactDOM.render(
     <Provider
         store={store}>
         {' '}
