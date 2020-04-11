@@ -9,7 +9,7 @@ import {
 
 
 const initialGadgetsState = {
-     activeGadgetDevice: ""
+     activeGadgetDevice: ''
 };
 
 const defaultGadgetDropDownEvents = (state = initialGadgetsState, action) => {
