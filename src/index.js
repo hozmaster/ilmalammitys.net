@@ -9,10 +9,14 @@ import reducer from './reducers'
 import 'semantic-ui-css/semantic.js';
 import './index.css';
 import App from './App';
+import { createLogger } from 'redux-logger'
 
 import * as serviceWorker from './serviceWorker';
 
 const middleware = [thunk]
+if (process.env.NODE_ENV !== 'production') {
+    middleware.push(createLogger())
+}
 
 let store = createStore(
     reducer,

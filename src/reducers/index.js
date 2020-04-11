@@ -15,9 +15,10 @@ const initialGadgetsState = {
 const defaultGadgetDropDownEvents = (state = initialGadgetsState, action) => {
     if (action.type === SET_GADGET_DROPDOWN_DEVICE
     ) {
+        console.log ("SET_GADGET_DROPDOWN_DEVICE " + action.payload);
         return {
             ...state,
-            activeGadgetDevice: action,
+            activeGadgetDevice: action.payload,
         }
     } else {
         return state

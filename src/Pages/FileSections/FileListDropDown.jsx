@@ -10,14 +10,12 @@ import gadgetList from '../../data/gadget_data';
 import PropTypes from "prop-types"
 import { connect } from "react-redux"
 
-import {
-    changeActiveGadgetDevice
-} from '../../actions/index'
+import * as actions from '../../actions'
 
 class FileListDropDown extends React.Component {
-    // static propTypes = {
-    //     activeGadget: PropTypes.string.isRequired,
-    // };
+    static propTypes = {
+        changeActiveGadgetDevice:PropTypes.func.isRequired
+    };
 
     constructor(props) {
         super(props);
@@ -33,7 +31,7 @@ class FileListDropDown extends React.Component {
 
     render() {
         const {
-            options
+            changeActiveGadgetDevice
         } = this.props;
         
         return (
@@ -42,7 +40,8 @@ class FileListDropDown extends React.Component {
                 fluid
                 selection
                 options={this.state.options}
-                // onChange={(e, data) =>{this.setCurrentSelectedValues(e, data)}}
+                onAddItem={(e, data)=>{console.log(e, data.key)}}
+                onChange={(e, data) =>{changeActiveGadgetDevice(e, data)}}
                 // onChange={this.handleChange}
             >
 
@@ -59,4 +58,4 @@ const controlStateToProps = state => {
 };
 
 // export default FileListDropDown;
-export default connect(controlStateToProps)(FileListDropDown);
+export default connect(controlStateToProps, actions)(FileListDropDown);

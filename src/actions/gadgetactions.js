@@ -19,13 +19,14 @@ export const addUserDropdownOption = (e, data) => {
 
 export const updaterDropdownOption = (e, data) => {
     const userAddedItem = {
-        key: data.value,
-        text: data.value,
+        key: data.key,
+        text: data.text,
         value: data.value
     }
     return {type: UPDATE_GADGET_DROPDOWN_CHOICE, payload: userAddedItem}
 };
 
 export const changeActiveGadgetDevice = (e, data) => {
+    console.log (data);
     return {type: SET_GADGET_DROPDOWN_DEVICE, payload: data.value}
 }
