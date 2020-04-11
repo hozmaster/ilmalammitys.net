@@ -3,4 +3,4 @@
  */
 
 
-export * from './gadgetactions'
+export * from './actions'

@@ -34,7 +34,7 @@ class FileListings extends React.Component {
                 <p> </p>
                 <p> Device : {activeGadget} </p>
                 <FileListDropDown/>
-                <List id={"fooList"}> </List>
+                <List id={"fileList"}> </List>
             </div>
         )
     }

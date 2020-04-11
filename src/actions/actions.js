@@ -5,7 +5,7 @@
 import {
     SET_GADGET_DROPDOWN_DEVICE,
     UPDATE_GADGET_DEVICE_NAME
-} from "./types";
+} from "./action-types";
 
 
 export const receiveGeocodeResults = payload => ({

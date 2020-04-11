@@ -5,7 +5,7 @@ import { combineReducers } from 'redux'
 
 import {
     SET_GADGET_DROPDOWN_DEVICE
-} from '../actions/types'
+} from '../actions/action-types'
 
 
 const initialGadgetsState = {
