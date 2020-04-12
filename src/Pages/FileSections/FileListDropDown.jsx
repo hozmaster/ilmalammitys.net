@@ -2,7 +2,6 @@
  * Copyright (c) 2020.  Olli-Pekka Wallin All rights reserved
  */
 
-// https://medium.com/@wley3337/controlled-dropdown-selection-with-react-redux-and-semantic-ui-react-6a3b2b158659
 import React from 'react'
 import {Dropdown} from 'semantic-ui-react'
 import gadgetList from '../../data/gadget_data';
@@ -41,7 +40,6 @@ class FileListDropDown extends React.Component {
                 selection
                 options={this.state.options}
                 onChange={(e, data) =>{changeActiveGadgetDevice(e, data)}}
-                // onChange={this.handleChange}
             >
 
             </Dropdown>
@@ -56,5 +54,4 @@ const controlStateToProps = state => {
     }
 };
 
-// export default FileListDropDown;
 export default connect(controlStateToProps, actions)(FileListDropDown);
