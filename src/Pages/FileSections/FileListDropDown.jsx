@@ -4,7 +4,7 @@
 
 import React from 'react'
 import {Dropdown} from 'semantic-ui-react'
-import gadgetList from '../../data/gadget_data';
+import gadgetList from '../../data/gadget_dropdown_data';
 
 import PropTypes from "prop-types"
 import { connect } from "react-redux"
