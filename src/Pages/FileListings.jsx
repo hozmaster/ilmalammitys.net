@@ -32,8 +32,9 @@ class FileListings extends React.Component {
                 <p></p>
                 <Container textAlign={"justified"}>Erittäin suuret kiitokset tiedostojen lähettäjille.</Container>
                 <p> </p>
-                <p> Device : {activeGadget} </p>
                 <FileListDropDown/>
+                <p> </p>
+                <p> Device : {activeGadget} </p>
                 <List id={"fileList"}> </List>
             </div>
         )

@@ -41,7 +41,7 @@ const Technic = () => <div>
 
     <Header as={"h4"}> Käytetty ilma </Header>
     <p> Käytetty ilma poistetaan talosta tai huoneiston harmaiden tilojen kautta takaisin ilmalämmityskoneeseen joka ottaa parhaansa mukaan lämmön talteen ja esilämmittää mahdollisuuksiensa mukaan raaka-ilman.</p>
-    <h3> Huolto </h3>
+    <Header as={"h3"}> Huolto </Header>
     <p> Karkeasti voidaan sanoa että erikoisfirmojen palveluita voidaan käyttää ympäri vuoden ja nuohoojien palveluita kesäaikaan.</p>
 
     <Header as={"h4"}> </Header>
