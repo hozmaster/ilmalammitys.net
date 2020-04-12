@@ -40,7 +40,6 @@ class FileListDropDown extends React.Component {
                 fluid
                 selection
                 options={this.state.options}
-                onAddItem={(e, data)=>{console.log(e, data.key)}}
                 onChange={(e, data) =>{changeActiveGadgetDevice(e, data)}}
                 // onChange={this.handleChange}
             >
