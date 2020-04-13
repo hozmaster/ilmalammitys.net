@@ -1,6 +1,7 @@
 [
     {
-        "Parma 10": {
+        "gadget": "Parma 10",
+        "data" : {
             "set_0": {
                 "Title": "Parma 10",
                 "Files": [
@@ -21,7 +22,8 @@
         }
     },
     {
-        "Valmet Kotilämpö F1000S": {
+        "gadget": "Valmet Kotilämpö F1000S",
+        "data": {
             "set_0": {
                 "Title": "Valmet kotilämpö F1000S",
                 "Files": [
@@ -38,7 +40,8 @@
         }
     },
     {
-        "Valmet Kotilämpö E1000": {
+        "gadget": "Valmet Kotilämpö E1000",
+        "data": {
             "set_0": {
                 "Title": "Valmet Kotilämpö E1000",
                 "Files": [
@@ -51,7 +54,8 @@
         }
     },
     {
-        "Oilon": {
+        "gadget": "Oilon",
+        "data": {
             "set_0": {
                 "Title": "Oilon",
                 "Files": [
@@ -64,7 +68,8 @@
         }
     },
     {
-        "HomeAir": {
+        "gadget": "HomeAir",
+        "data": {
             "set_0": {
                 "Title": "HomeAir",
                 "Files": [
@@ -77,7 +82,8 @@
         }
     },
     {
-        "Termovent": {
+        "gadget": "Termovent",
+        "data": {
             "set_0": {
                 "Title": "Termovent",
                 "Files": [
@@ -90,8 +96,8 @@
         }
     },
     {
-        "text": "",
-        "Himablock": {
+        "gadget": "Himablock",
+        "data": {
             "set_0": {
                 "Title": "Himablock",
                 "Files": [
@@ -104,7 +110,8 @@
         }
     },
     {
-        "Energiset OSY": {
+        "gadget": "Energiset OSY",
+        "data": {
             "set_0": {
                 "Title": "Energiset OSY",
                 "Files": [
@@ -117,7 +124,8 @@
         }
     },
     {
-        "ILA-15": {
+        "gadget": "ILA-15",
+        "data": {
             "set_0": {
                 "Title": "ILA-15",
                 "Files": [
@@ -130,7 +138,8 @@
         }
     },
     {
-        "Honeywell": {
+        "gadget": "Honeywell",
+        "data": {
             "set_0": {
                 "Title": "Honewell",
                 "Files": [

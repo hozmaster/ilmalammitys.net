@@ -2,12 +2,13 @@
 * Copyright (c) 2020.  Olli-Pekka Wallin All rights reserved
 */
 
-import "../data/gadget_file_data"
+// import gadgets from "./gadget_dropdown_data"
+const gadgets = require ("../data/gadget_dropdown_data");
 
-export const resolveFileArray = (key) => {
-    let results = {};
-    if (key) {
-        // results = c
-    }
-    return results;
+const resolveFileArray = (key) => {
+    return gadgets.find(element => element.gadget === key);
 };
+
+module.exports = resolveFileArray;
+
+
