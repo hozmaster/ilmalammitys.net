@@ -1,0 +1,154 @@
+[
+    {
+        "gadget": "Parma 10",
+        "data" : {
+            "set_0": {
+                "Title": "Parma 10",
+                "Files": [
+                    {
+                        "title": "Sivu 00: Sisällysluettelo ",
+                        "url": "../parma10.pdf"
+                    },
+                    {
+                        "title": "Sivu 01: Ilmalämmitysjärjestelmä ",
+                        "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
+                    },
+                    {
+                        "title": "Sivu 02: Parma 10 toimitus ",
+                        "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "gadget": "Valmet Kotilämpö F1000S",
+        "data": {
+            "set_0": {
+                "Title": "Valmet kotilämpö F1000S",
+                "Files": [
+                    {
+                        "title": "Käyttöopas 1",
+                        "url": "../parma10.pdf"
+                    },
+                    {
+                        "title": "Käyttöopas 2",
+                        "url": "../parma10.pdf"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "gadget": "Valmet Kotilämpö E1000",
+        "data": {
+            "set_0": {
+                "Title": "Valmet Kotilämpö E1000",
+                "Files": [
+                    {
+                        "title": "Sivu 00: Sisällysluettelo ",
+                        "url": "../parma10.pdf"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "gadget": "Oilon",
+        "data": {
+            "set_0": {
+                "Title": "Oilon",
+                "Files": [
+                    {
+                        "title": "Sivu 00: Sisällysluettelo ",
+                        "url": "../parma10.pdf"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "gadget": "HomeAir",
+        "data": {
+            "set_0": {
+                "Title": "HomeAir",
+                "Files": [
+                    {
+                        "title": "Sivu 00: Sisällysluettelo ",
+                        "url": "../parma10.pdf"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "gadget": "Termovent",
+        "data": {
+            "set_0": {
+                "Title": "Termovent",
+                "Files": [
+                    {
+                        "title": "Sivu 00: Sisällysluettelo ",
+                        "url": "../parma10.pdf"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "gadget": "Himablock",
+        "data": {
+            "set_0": {
+                "Title": "Himablock",
+                "Files": [
+                    {
+                        "title": "Sivu 00: Sisällysluettelo ",
+                        "url": "../parma10.pdf"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "gadget": "Energiset OSY",
+        "data": {
+            "set_0": {
+                "Title": "Energiset OSY",
+                "Files": [
+                    {
+                        "title": "Sivu 00: Sisällysluettelo ",
+                        "url": "../parma10.pdf"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "gadget": "ILA-15",
+        "data": {
+            "set_0": {
+                "Title": "ILA-15",
+                "Files": [
+                    {
+                        "title": "Sivu 00: Sisällysluettelo ",
+                        "url": "../parma10.pdf"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "gadget": "Honeywell",
+        "data": {
+            "set_0": {
+                "Title": "Honewell",
+                "Files": [
+                    {
+                        "title": "Sivu 00: Sisällysluettelo ",
+                        "url": "../parma10.pdf"
+                    }
+                ]
+            }
+        }
+    }
+ ]

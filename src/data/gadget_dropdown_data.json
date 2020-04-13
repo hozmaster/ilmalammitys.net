@@ -1,154 +1,52 @@
 [
     {
-        "gadget": "Parma 10",
-        "data" : {
-            "set_0": {
-                "Title": "Parma 10",
-                "Files": [
-                    {
-                        "title": "Sivu 00: Sisällysluettelo ",
-                        "url": "../parma10.pdf"
-                    },
-                    {
-                        "title": "Sivu 01: Ilmalämmitysjärjestelmä ",
-                        "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
-                    },
-                    {
-                        "title": "Sivu 02: Parma 10 toimitus ",
-                        "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
-                    }
-                ]
-            }
-        }
+        "key": "htr_parma10",
+        "text": "Parma 10",
+        "value": "Parma 10"
     },
     {
-        "gadget": "Valmet Kotilämpö F1000S",
-        "data": {
-            "set_0": {
-                "Title": "Valmet kotilämpö F1000S",
-                "Files": [
-                    {
-                        "title": "Käyttöopas 1",
-                        "url": "../parma10.pdf"
-                    },
-                    {
-                        "title": "Käyttöopas 2",
-                        "url": "../parma10.pdf"
-                    }
-                ]
-            }
-        }
+        "key": "htr_valmet_home_f1000s",
+        "text": "Valmet Kotilämpö F1000S",
+        "value": "Valmet Kotilämpö F1000S"
     },
     {
-        "gadget": "Valmet Kotilämpö E1000",
-        "data": {
-            "set_0": {
-                "Title": "Valmet Kotilämpö E1000",
-                "Files": [
-                    {
-                        "title": "Sivu 00: Sisällysluettelo ",
-                        "url": "../parma10.pdf"
-                    }
-                ]
-            }
-        }
+        "key": "htr_valmet_home_e1000s",
+        "text": "Valmet Kotilämpö E1000",
+        "value": "Valmet Kotilämpö E1000"
     },
     {
-        "gadget": "Oilon",
-        "data": {
-            "set_0": {
-                "Title": "Oilon",
-                "Files": [
-                    {
-                        "title": "Sivu 00: Sisällysluettelo ",
-                        "url": "../parma10.pdf"
-                    }
-                ]
-            }
-        }
+        "key": "htr_oilon",
+        "text": "Oilon",
+        "value": "Oilon"
     },
     {
-        "gadget": "HomeAir",
-        "data": {
-            "set_0": {
-                "Title": "HomeAir",
-                "Files": [
-                    {
-                        "title": "Sivu 00: Sisällysluettelo ",
-                        "url": "../parma10.pdf"
-                    }
-                ]
-            }
-        }
+        "key": "htr_home_air",
+        "text": "HomeAir",
+        "value": "HomeAir"
     },
     {
-        "gadget": "Termovent",
-        "data": {
-            "set_0": {
-                "Title": "Termovent",
-                "Files": [
-                    {
-                        "title": "Sivu 00: Sisällysluettelo ",
-                        "url": "../parma10.pdf"
-                    }
-                ]
-            }
-        }
+        "key": "htr_termovent",
+        "text": "Termovent",
+        "value": "Termovent"
     },
     {
-        "gadget": "Himablock",
-        "data": {
-            "set_0": {
-                "Title": "Himablock",
-                "Files": [
-                    {
-                        "title": "Sivu 00: Sisällysluettelo ",
-                        "url": "../parma10.pdf"
-                    }
-                ]
-            }
-        }
+        "key": "htr_himablock",
+        "text": "Himablock",
+        "value": "Himablock"
     },
     {
-        "gadget": "Energiset OSY",
-        "data": {
-            "set_0": {
-                "Title": "Energiset OSY",
-                "Files": [
-                    {
-                        "title": "Sivu 00: Sisällysluettelo ",
-                        "url": "../parma10.pdf"
-                    }
-                ]
-            }
-        }
+        "key": "htr_energiset_osy",
+        "text": "Energiset OSY",
+        "value": "Energiset OSY"
     },
     {
-        "gadget": "ILA-15",
-        "data": {
-            "set_0": {
-                "Title": "ILA-15",
-                "Files": [
-                    {
-                        "title": "Sivu 00: Sisällysluettelo ",
-                        "url": "../parma10.pdf"
-                    }
-                ]
-            }
-        }
+        "key": "htr_ila_15",
+        "text": "ILA-15",
+        "value": "ILA-15"
     },
     {
-        "gadget": "Honeywell",
-        "data": {
-            "set_0": {
-                "Title": "Honewell",
-                "Files": [
-                    {
-                        "title": "Sivu 00: Sisällysluettelo ",
-                        "url": "../parma10.pdf"
-                    }
-                ]
-            }
-        }
+        "key": "trm_honeywell",
+        "text": "Honeywell",
+        "value": "Honeywell"
     }
- ]
+]
