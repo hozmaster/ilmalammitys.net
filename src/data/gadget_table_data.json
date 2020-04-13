@@ -1,10 +1,11 @@
 [
     {
         "gadget": "Parma 10",
-        "data" : {
-            "set_0": {
-                "Title": "Parma 10",
-                "Files": [
+        "data": [
+            {
+                "title": "Parma 10",
+                "description": "Käyttöoppaat",
+                "files": [
                     {
                         "title": "Sivu 00: Sisällysluettelo ",
                         "url": "../parma10.pdf"
@@ -19,14 +20,15 @@
                     }
                 ]
             }
-        }
+        ]
     },
     {
         "gadget": "Valmet Kotilämpö F1000S",
-        "data": {
-            "set_0": {
-                "Title": "Valmet kotilämpö F1000S",
-                "Files": [
+        "data": [
+            {
+                "title": "Valmet kotilämpö F1000S",
+                "description": "Käyttöoppaat",
+                "tiles": [
                     {
                         "title": "Käyttöopas 1",
                         "url": "../parma10.pdf"
@@ -37,118 +39,125 @@
                     }
                 ]
             }
-        }
+        ]
     },
     {
         "gadget": "Valmet Kotilämpö E1000",
-        "data": {
-            "set_0": {
-                "Title": "Valmet Kotilämpö E1000",
-                "Files": [
+        "data": [
+            {
+                "title": "Valmet Kotilämpö E1000",
+                "files": [
                     {
                         "title": "Sivu 00: Sisällysluettelo ",
                         "url": "../parma10.pdf"
                     }
                 ]
             }
-        }
+        ]
     },
     {
         "gadget": "Oilon",
-        "data": {
-            "set_0": {
-                "Title": "Oilon",
-                "Files": [
+        "data": [
+            {
+                "title": "Oilon",
+                "description": "Käyttöoppaat",
+                "files": [
                     {
                         "title": "Sivu 00: Sisällysluettelo ",
                         "url": "../parma10.pdf"
                     }
                 ]
             }
-        }
+        ]
     },
     {
         "gadget": "HomeAir",
-        "data": {
-            "set_0": {
-                "Title": "HomeAir",
-                "Files": [
+        "data": [
+            {
+                "title": "HomeAir",
+                "description": "Käyttöoppaat",
+                "files": [
                     {
                         "title": "Sivu 00: Sisällysluettelo ",
                         "url": "../parma10.pdf"
                     }
                 ]
             }
-        }
+        ]
     },
     {
         "gadget": "Termovent",
-        "data": {
-            "set_0": {
-                "Title": "Termovent",
-                "Files": [
+        "data": [
+            {
+                "title": "Termovent",
+                "description": "Käyttöoppaat",
+                "files": [
                     {
                         "title": "Sivu 00: Sisällysluettelo ",
                         "url": "../parma10.pdf"
                     }
                 ]
             }
-        }
+        ]
     },
     {
         "gadget": "Himablock",
-        "data": {
-            "set_0": {
-                "Title": "Himablock",
-                "Files": [
+        "data": [
+            {
+                "title": "Himablock",
+                "description": "Käyttöoppaat",
+                "files": [
                     {
                         "title": "Sivu 00: Sisällysluettelo ",
                         "url": "../parma10.pdf"
                     }
                 ]
             }
-        }
+        ]
     },
     {
         "gadget": "Energiset OSY",
-        "data": {
-            "set_0": {
-                "Title": "Energiset OSY",
-                "Files": [
+        "data": [
+            {
+                "title": "Energiset OSY",
+                "description": "Käyttöoppaat",
+                "files": [
                     {
                         "title": "Sivu 00: Sisällysluettelo ",
                         "url": "../parma10.pdf"
                     }
                 ]
             }
-        }
+        ]
     },
     {
         "gadget": "ILA-15",
-        "data": {
-            "set_0": {
-                "Title": "ILA-15",
-                "Files": [
+        "data": [
+            {
+                "title": "ILA-15",
+                "description": "Käyttöoppaat",
+                "files": [
                     {
                         "title": "Sivu 00: Sisällysluettelo ",
                         "url": "../parma10.pdf"
                     }
                 ]
             }
-        }
+        ]
     },
     {
         "gadget": "Honeywell",
-        "data": {
-            "set_0": {
-                "Title": "Honewell",
-                "Files": [
+        "data": [
+            {
+                "title": "Honewell",
+                "description": "Käyttöoppaat",
+                "files": [
                     {
                         "title": "Sivu 00: Sisällysluettelo ",
                         "url": "../parma10.pdf"
                     }
                 ]
             }
-        }
+        ]
     }
- ]
+]
