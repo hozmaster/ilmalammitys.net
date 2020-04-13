@@ -3,8 +3,9 @@
  */
 
 import React from 'react'
-import {List, Container, Header} from 'semantic-ui-react'
+import {Container, Header} from 'semantic-ui-react'
 import FileListDropDown from "./FileSections/FileListDropDown";
+import FileListTable from "./FileSections/FileListTable"
 import { connect } from "react-redux"
 import * as actions from '../actions'
 import PropTypes from "prop-types";
@@ -34,8 +35,7 @@ class FileListings extends React.Component {
                 <p> </p>
                 <FileListDropDown/>
                 <p> </p>
-                <p> Device :  </p>
-                <List id={"fileList"}> </List>
+                <FileListTable/>
             </div>
         )
     }
