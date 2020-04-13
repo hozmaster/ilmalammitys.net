@@ -42,21 +42,6 @@ class FileListTable extends React.Component {
                         )
                     }))}
             </div>
-
-
-            // <Table style={{ marginTop: "2em" }} compact fullWidth>
-            //     <Table.Body>
-            //         {Object.values(tableData["data"][0]["files"].map(
-            //             ({ title, url }) => {
-            //                 return (
-            //                     <Table.Row>
-            //                         <Table.Cell> <TableRowLink text={title} url={url} /> </Table.Cell>
-            //                     </Table.Row>
-            //                 );
-            //             }
-            //         ))}
-            //     </Table.Body>
-            // </Table>
         )
     }
 }

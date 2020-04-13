@@ -10,12 +10,5 @@ const TableRowLink = ({ text, url }) =>
         {text}
     </a>;
 
-
 export default TableRowLink
-
-// Link.propTypes = {
-//     active: PropTypes.bool.isRequired,
-//     children: PropTypes.node.isRequired,
-//     onClick: PropTypes.func.isRequired
-// }
 
