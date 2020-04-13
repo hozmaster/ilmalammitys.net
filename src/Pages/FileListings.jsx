@@ -13,7 +13,7 @@ import PropTypes from "prop-types";
 class FileListings extends React.Component {
 
     static propTypes = {
-        activeGadget: PropTypes.string.isRequired
+        activeGadget: PropTypes.object.isRequired
     };
 
     render() {
@@ -34,7 +34,7 @@ class FileListings extends React.Component {
                 <p> </p>
                 <FileListDropDown/>
                 <p> </p>
-                <p> Device : </p>
+                <p> Device :  </p>
                 <List id={"fileList"}> </List>
             </div>
         )
