@@ -8,7 +8,7 @@ import React from 'react'
 const TableRowLink = ({ text, url }) =>
     <a href={url}>
         {text}
-    </a>    
+    </a>;
 
 
 export default TableRowLink
