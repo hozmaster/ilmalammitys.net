@@ -9,12 +9,12 @@ import {
 
 const resolveFileArray = require("./resolvefilelistdata");
 
-export const receiveGeocodeResults = payload => dispatch => ({
-    type: UPDATE_GADGET_DEVICE_NAME,
-    results: payload,
-})
+//
+// export const receiveGeocodeResults = payload => dispatch => ({
+//     type: UPDATE_GADGET_DEVICE_NAME,
+//     results: payload,
+// })
 
 export const changeActiveGadgetDevice = (e, data) => dispatch => {
-    console.log(resolveFileArray(data.value).gadget);
     return {type: SET_GADGET_DROPDOWN_DEVICE, payload: resolveFileArray(data.value)}
 }

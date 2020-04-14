@@ -23,6 +23,9 @@ let store = createStore(
     composeWithDevTools(applyMiddleware(...middleware))
 );
 
+const unsubscribe = store.subscribe(() => console.log(store.getState()));
+
+
 ReactDOM.render(
     <Provider
         store={store}>
@@ -37,3 +40,5 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+unsubscribe()

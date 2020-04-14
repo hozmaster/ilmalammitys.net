@@ -1,15 +1,24 @@
 /*
  * Copyright (c) 2020.  Olli-Pekka Wallin All rights reserved
  */
-import { combineReducers } from 'redux'
+import {combineReducers} from 'redux'
 
 import {
     SET_GADGET_DROPDOWN_DEVICE
 } from '../actions/action-types'
 
-
 const initialGadgetsState = {
-     activeGadgetDevice:  {}
+    activeGadgetDevice: {
+        "gadget" : "sds",
+        "data": [
+            {
+                "title": "No selection",
+                "description": "Käyttöoppaat",
+                "files": []
+            }
+        ]
+    }
+
 };
 
 const defaultGadgetDropDownEvents = (state = initialGadgetsState, action) => {
@@ -26,7 +35,7 @@ const defaultGadgetDropDownEvents = (state = initialGadgetsState, action) => {
 
 // creates a root reducer and combines different reducers if needed
 const rootReducer = combineReducers({
-    gadgetSelectionControls : defaultGadgetDropDownEvents
+    gadgetSelectionControls: defaultGadgetDropDownEvents
 });
 
 export default rootReducer;
