@@ -32,28 +32,27 @@ class FileListTable extends React.Component {
 
         return (
             <div>
-                {Object.values(activeGadgetDevice["data"].map(
-                    ({title, files}) => {
+                {Object.values(activeGadgetDevice["data"].map(function (object, i) {
                         return (
-                            <div>
-                                <Header style={{marginTop: "2em"}} as={'h4'}> {title} </Header>
+                            <div key={i}>
+                                <Header style={{marginTop: "2em"}} as={'h4'}> {object.title} </Header>
                                 <Table compact >
-                                    <Table.Body>
-                                        {Object.values(files.map(
-                                            ({title, url}) => {
-                                                return (
-                                                    <Table.Row>
-                                                        <Table.Cell> <TableRowLink text={title} url={url}/>
-                                                        </Table.Cell>
-                                                    </Table.Row>
-                                                );
-                                            }
-                                        ))}
-                                    </Table.Body>
+                                        <Table.Body>
+                                            {Object.values(object.files.map(function (object, i) {
+                                                    return (
+                                                        <Table.Row key={i}>
+                                                            <Table.Cell> <TableRowLink text={object.title} url={object.url}/>
+                                                            </Table.Cell>
+                                                        </Table.Row>
+                                                    );
+                                                }
+                                            ))}
+                                        </Table.Body>
                                 </Table>
                             </div>
                         )
-                    }))}
+                    }
+                    ))}
             </div>
         )
     }

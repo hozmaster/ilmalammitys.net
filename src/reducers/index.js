@@ -14,7 +14,10 @@ const initialGadgetsState = {
             {
                 "title": "No selection",
                 "description": "Käyttöoppaat",
-                "files": []
+                "files": [ {
+                    "title": "Käyttöopas 1",
+                    "url": "../parma10.pdf"
+                }]
             }
         ]
     }
