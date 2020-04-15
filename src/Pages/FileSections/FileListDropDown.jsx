@@ -6,40 +6,38 @@ import React from 'react'
 import {Dropdown} from 'semantic-ui-react'
 import gadgetList from '../../data/gadget_dropdown_data';
 
-import PropTypes from "prop-types"
-import { connect } from "react-redux"
-
-import * as actions from '../../actions'
-
 class FileListDropDown extends React.Component {
-    static propTypes = {
-        changeActiveGadgetDevice:PropTypes.func.isRequired
-    };
 
     constructor(props) {
         super(props);
         this.state = {
             selectGadget: '',
-            options: gadgetList,
-            data: {
-                name: '',
-                subject: ''
-            }
+            options: gadgetList
         }
+        this.handleUserSelection = this.handleUserSelection.bind(this);
     }
 
+    handleUserSelection = (e, data) => {
+        this.setState({
+                selectGadget: data.value
+            }
+        )
+        this.props.onSelectGadgetDevice(data.value);
+    }
+
+
     render() {
-        const {
-            changeActiveGadgetDevice
-        } = this.props;
-        
+
         return (
             <Dropdown
                 placeholder='Valitse laite'
                 fluid
                 selection
                 options={this.state.options}
-                onChange={(e, data) =>{changeActiveGadgetDevice(e, data)}}
+                defaultValue={this.state.selectGadget} // <== here the default values
+                onChange={(e, data) => {
+                    this.handleUserSelection(e,data)
+                }}
             >
 
             </Dropdown>
@@ -47,11 +45,4 @@ class FileListDropDown extends React.Component {
     }
 }
 
-const controlStateToProps = state => {
-    const activeGadget = state.gadgetSelectionControls.activeGadgetDevice;
-    return {
-        activeGadget,
-    }
-};
-
-export default connect(controlStateToProps, actions)(FileListDropDown);
+export default (FileListDropDown);

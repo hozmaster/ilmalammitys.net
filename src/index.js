@@ -4,18 +4,18 @@ import { CookiesProvider } from 'react-cookie';
 import { createStore, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import { Provider } from 'react-redux'
-import thunk from 'redux-thunk'
 import reducer from './reducers'
 import 'semantic-ui-css/semantic.js';
 import './index.css';
 import App from './App';
-import { createLogger } from 'redux-logger'
+
 
 import * as serviceWorker from './serviceWorker';
 
-const middleware = [thunk]
+const middleware = []
 if (process.env.NODE_ENV !== 'production') {
-    middleware.push(createLogger())
+    const logger= require('redux-logger');
+    middleware.push(logger.createLogger())
 }
 
 let store = createStore(

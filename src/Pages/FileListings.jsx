@@ -10,34 +10,40 @@ import { connect } from "react-redux"
 import * as actions from '../actions'
 import PropTypes from "prop-types";
 
-
 class FileListings extends React.Component {
 
-    static propTypes = {
-        activeGadget: PropTypes.object.isRequired
-    };
+    constructor(props) {
+        super(props);
+        this.state = {
+            selectGadget: '',
+        }
+
+        this.selectGadgetDevice = this.selectGadgetDevice.bind(this);
+
+    }
 
     render() {
-        const {
-            activeGadget
-        } = this.props;
-
         return (
             <div>
-                <p></p>
-                <Header as={"h3"} className="ui header">Tiedostot</Header>
+                <Header style={{marginTop: "2em"}} as={"h3"} className="ui header">Tiedostot</Header>
                 <Container textAlign='justified'> Nämä tiedostot on saatu useiden yksityisten käyttäjien toimesta pitkän
                     ajan kuluessa. Nämä näyttävät oikeilta päällisin puolin ... mutta ... En kuitenkaan pysty takaamaan esim
                     sähkökaavioiden tai muiden tiedostojen oikeellisuutta sekä turvallisuutta joten ymmärtänet sen että
                     käytät näitä tiedostoja omalla vastuulla. </Container>
-                <p></p>
+                <p> </p>
                 <Container textAlign={"justified"}>Erittäin suuret kiitokset tiedostojen lähettäjille.</Container>
                 <p> </p>
-                <FileListDropDown/>
+                <FileListDropDown onSelectGadgetDevice={this.selectGadgetDevice}/>
                 <p> </p>
-                <FileListTable/>
+                <FileListTable theGadget = { this.state.selectGadget }/>
             </div>
         )
+    }
+
+    selectGadgetDevice = (gadget) => {
+        this.setState({
+            selectGadget: gadget
+        })
     }
 }
 
