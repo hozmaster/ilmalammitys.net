@@ -3,7 +3,7 @@
         "gadget": "Parma 10",
         "data": [
             {
-                "title": "Parma 10",
+                "title": "Parma 10 - käyttöoppaat ",
                 "description": "Käyttöoppaat",
                 "files": [
                     {
@@ -28,7 +28,7 @@
             {
                 "title": "Valmet kotilämpö F1000S",
                 "description": "Käyttöoppaat",
-                "tiles": [
+                "files": [
                     {
                         "title": "Käyttöopas 1",
                         "url": "../parma10.pdf"

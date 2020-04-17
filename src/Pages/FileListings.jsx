@@ -15,11 +15,10 @@ class FileListings extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            selectGadget: '',
+            selectGadget: ' ',
         }
 
         this.selectGadgetDevice = this.selectGadgetDevice.bind(this);
-
     }
 
     render() {
@@ -35,7 +34,7 @@ class FileListings extends React.Component {
                 <p> </p>
                 <FileListDropDown onSelectGadgetDevice={this.selectGadgetDevice}/>
                 <p> </p>
-                <FileListTable theGadget = { this.state.selectGadget }/>
+                <FileListTable selectGadget = { this.state.selectGadget }/>
             </div>
         )
     }
@@ -52,6 +51,7 @@ const gadgetList = state => {
     return {
         activeGadget,
     }
+
 };
 
 export default connect(gadgetList, actions)(FileListings);
