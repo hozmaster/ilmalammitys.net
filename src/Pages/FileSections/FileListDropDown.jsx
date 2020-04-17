@@ -11,7 +11,7 @@ class FileListDropDown extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            selectGadget: '',
+            selectGadget: 'Parma 10',
             options: gadgetList
         }
         this.handleUserSelection = this.handleUserSelection.bind(this);

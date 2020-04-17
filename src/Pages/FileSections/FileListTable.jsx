@@ -5,9 +5,10 @@
 import React from 'react'
 import {Header, Table} from 'semantic-ui-react'
 import TableRowLink from './TableRowLink'
+import {array} from "prop-types";
 
 const singleTable = require("../../data/gadget_single_item.json");
-const gadgetFiles = require("../../data/gadget_table_data.json")
+const gadgetFiles = require("../../data/gadget_table_data.json");
 
 class FileListTable extends React.Component {
 
@@ -29,9 +30,7 @@ class FileListTable extends React.Component {
     }
 
     render() {
-        let tableData = [];
-        tableData = this.getGadgetData( this.props.selectGadget);
-
+        const tableData = this.getGadgetData( this.props.selectGadget);
         return (
             <div>
                 {Object.values(tableData["data"].map(function (object, i) {

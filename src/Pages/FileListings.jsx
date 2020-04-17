@@ -15,7 +15,7 @@ class FileListings extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            selectGadget: ' ',
+            selectGadget: 'Parma 10',
         }
 
         this.selectGadgetDevice = this.selectGadgetDevice.bind(this);
