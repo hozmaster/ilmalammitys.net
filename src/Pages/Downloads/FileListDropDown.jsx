@@ -34,7 +34,7 @@ class FileListDropDown extends React.Component {
                 fluid
                 selection
                 options={this.state.options}
-                defaultValue={this.state.selectGadget} // <== here the default values
+                defaultValue={this.state.selectGadget}
                 onChange={(e, data) => {
                     this.handleUserSelection(e,data)
                 }}
