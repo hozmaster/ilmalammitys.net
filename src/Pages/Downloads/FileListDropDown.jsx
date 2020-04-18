@@ -25,7 +25,6 @@ class FileListDropDown extends React.Component {
         this.props.onSelectGadgetDevice(data.value);
     }
 
-
     render() {
 
         return (
@@ -36,7 +35,7 @@ class FileListDropDown extends React.Component {
                 options={this.state.options}
                 defaultValue={this.state.selectGadget}
                 onChange={(e, data) => {
-                    this.handleUserSelection(e,data)
+                    this.handleUserSelection(e, data)
                 }}
             >
 
