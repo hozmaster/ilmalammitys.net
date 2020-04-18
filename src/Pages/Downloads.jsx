@@ -8,7 +8,6 @@ import FileListDropDown from "./Downloads/FileListDropDown";
 import FileListTable from "./Downloads/FileListTable"
 import { connect } from "react-redux"
 import * as actions from '../actions'
-import PropTypes from "prop-types";
 
 class Downloads extends React.Component {
 
