@@ -213,8 +213,24 @@
                 "title": "Valmet Kotilämpö E1000",
                 "files": [
                     {
-                        "title": "Sivu 00: Sisällysluettelo ",
-                        "url": "../parma10.pdf"
+                        "url": "/assets/files/valmet_kotilampo_e1000/valmet_e1000_user_manual.pdf",
+                        "title": "Valmet Kotilämpö E1000 käyttöohje"
+                    },
+                    {
+                        "url": "/assets/files/valmet_kotilampo_e1000/valmet_e1000_asennuohje_s1-s4.pdf",
+                        "title": "Valmet Kotilämpö E1000, asennusohje, sivut 1-42"
+                    },
+                    {
+                        "url": "/assets/files/valmet_kotilampo_e1000/valmet_e1000_asennusohje_s5-s10.pdf",
+                        "title": "Valmet Kotilämpö E1000, asennusohje, sivut 5-10"
+                    },
+                    {
+                        "url": "/assets/files/valmet_kotilampo_e1000/valmet_e1000_asennusohje_s11-s15.pdf",
+                        "title": "Valmet Kotilämpö E1000, asennusohje, sivut 11-15"
+                    },
+                    {
+                        "url": "/assets/files/valmet_kotilampo_e1000/valmet_e1000_asennusohje_s16-s21.pdf",
+                        "title": "Valmet Kotilämpö E1000, asennusohje, sivut 16-21"
                     }
                 ]
             }
@@ -228,12 +244,30 @@
                 "description": "Käyttöoppaat",
                 "files": [
                     {
-                        "title": "Käyttöopas 1",
-                        "url": "../parma10.pdf"
+                        "url": "/assets/files/valmet_kotilampo_f1000/valmet_kotilampo_f1000_sivu1_2.pdf",
+                        "title": "Käyttöopas 1"
                     },
                     {
-                        "title": "Käyttöopas 2",
-                        "url": "../parma10.pdf"
+                        "url": "/assets/files/valmet_kotilampo_f1000/valmet_kotilampo_f1000_sivu2_2.pdf",
+                        "title": "Käyttöopas 2"
+                    },
+                    {
+                        "url": "/assets/files/valmet_kotilampo_f1000/valmet_kotilampo_f1000_sivu3_2.pdf",
+                        "title": "Käyttöopas 3"
+                    },
+                    {
+                        "url": "/assets/files/valmet_kotilampo_f1000/valmet_kotilampo_f1000_sivu4_2.pdf",
+                        "title": "Käyttöopas 4 "
+                    }
+                ]
+            },
+            {
+                "title": "Tekniset piirustukset ",
+                "description": "Tekninen dokumentaatio",
+                "files": [
+                    {
+                        "title": "Kytkentäkaavio",
+                        "url": "/assets/files/valmet_kotilampo_f1000/valmet_f1000s_kuvansi.jpg"
                     }
                 ]
             }
@@ -270,7 +304,7 @@
                         "title": "Kytkentäkaavio"
                     },
                     {
-                        "url": "/assets/files/homeair/Homeair_tekniset_tiedot.pdf"
+                        "url": "/assets/files/homeair/Homeair_tekniset_tiedot.pdf",
                         "title": "Käyttöopas (16 Mt)"
                     }
                 ]
