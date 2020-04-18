@@ -3,20 +3,160 @@
         "gadget": "Parma 10",
         "data": [
             {
-                "title": "Parma 10 - käyttöoppaat ",
-                "description": "Käyttöoppaat",
+                "title": "Parma 10 - käyttöopas",
+                "description": "Käyttöopas",
                 "files": [
                     {
                         "title": "Sivu 00: Sisällysluettelo ",
-                        "url": "../parma10.pdf"
+                        "url": "/assets/files/parma10/parma10_sivu_00_sisallys.pdf"
                     },
                     {
                         "title": "Sivu 01: Ilmalämmitysjärjestelmä ",
-                        "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
+                        "url": "/assets/files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
                     },
                     {
                         "title": "Sivu 02: Parma 10 toimitus ",
-                        "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
+                        "url": "/assets/files/parma10/parma10_sivu_02_02_parma10_toimitus.pdf"
+                    },
+                    {
+                        "title": "Sivu 03 : Kojeen erittely",
+                        "url": "/assets/files/parma10/parma10_sivu_03_03_kojeen_erittely.pdf"
+                    },
+                    {
+                        "title": "sivu_04_04_pakkaus_kuljetus_ja_kasittely.pdf",
+                        "url": "/assets/files/parma10/parma10_sivu_04_04_pakkaus_kuljetus_ja_kasittely.pdf"
+                    },
+                    {
+                        "title": "sivu_05_05_asennus.pdf",
+                        "url": "/assets/files/parma10/parma10_sivu_05_05_asennus.pdf"
+                    },
+                    {
+                        "title": "sivu_06_06_12_liitannat_sahko-lammitys.pdf",
+                        "url": "/assets/files/parma10/parma10_sivu_06_06_12_liitannat_sahko-lammitys.pdf"
+                    },
+                    {
+                        "title": "sivu_07_06_12_liitannat_sahko-lammitys.pdf",
+                        "url": "/assets/files/parma10/parma10_sivu_07_06_12_liitannat_sahko-lammitys.pdf"
+                    },
+                    {
+                        "title": "sivu_08_06_23_liitannat_sahko-lammitys.pdf",
+                        "url": "/assets/files/parma10/parma10_sivu_08_06_23_liitannat_sahko-lammitys.pdf"
+                    },
+                    {
+                        "title": "sivu_09_06_345_liitannat_poisto-raitis-kierto.pdf",
+                        "url": "/assets/files/parma10/parma10_sivu_09_06_345_liitannat_poisto-raitis-kierto.pdf"
+                    },
+                    {
+                        "title": "sivu_10_06_5_liitannat_kiertoilma.pdf",
+                        "url": "/assets/files/parma10/parma10_sivu_10_06_5_liitannat_kiertoilma.pdf"
+                    },
+                    {
+                        "title": "sivu_11_06_6_liitannat_kesa-talvi.pdf",
+                        "url": "/assets/files/parma10/parma10_sivu_11_06_6_liitannat_kesa-talvi.pdf"
+                    },
+                    {
+                        "title": "sivu_12_07_rakennusaikainenkaytto.pdf",
+                        "url": "/assets/files/parma10/parma10_sivu_12_07_rakennusaikainenkaytto.pdf"
+                    },
+                    {
+                        "url": "/assets/files/parma10/parma10_sivu_13_08_1_saattaminen_toimintakuntoon_kanavisto.pdf",
+                        "title": "sivu_13_08_1_saattaminen_toimintakuntoon_kanavisto.pdf"
+                    },
+                    {
+                        "url": "/assets/files/parma10/parma10_sivu_14_08_12_saattaminen_toimintakuntoon_sahkokytkennat.pdf",
+                        "title": "sivu_14_08_12_saattaminen_toimintakuntoon_sahkokytkennat.pdf"
+                    },
+                    {
+                        "url": "/assets/files/parma10/parma10_sivu_15_08_3_saattaminen_toimintakuntoon_kojesivu.pdf",
+                        "title": "sivu_15_08_3_saattaminen_toimintakuntoon_kojesivu.pdf"
+                    },
+                    {
+                        "url": "/assets/files/parma10/parma10_sivu_16_08_3_saattaminen_toimintakuntoon_tarkastus_ja_kaytto_sahkolaitteet.pdf",
+                        "title": "sivu_16_08_34_saattaminen_toimintakuntoon_tarkastus_ja_kaytto_sahkolaitteet.pdf"
+                    },
+                    {
+                        "url": "/assets/files/parma10/parma10_sivu_17_08_3_saattaminen_toimintakuntoon_tarkastus_ja_kaytto_sahkolaitteet.pdf",
+                        "title": "sivu_17_08_saattaminen_toimintakuntoon_tarkastus_ja_kaytto_sahkolaitteet.pdf"
+                    },
+                    {
+                        "url": "/assets/files/parma10/parma10_sivu_18_09_1_kaytto_sahkolaitteet.pdf",
+                        "title": "sivu_18_09_1_kaytto_sahkolaitteet.pdf"
+                    },
+                    {
+                        "url": "/assets/files/parma10/parma10_sivu_19_09_1_kaytto_sahkolaitteet.pdf",
+                        "title": "sivu_19_09_1_kaytto_sahkolaitteet.pdf"
+                    },
+                    {
+                        "url": "/assets/files/parma10/parma10_sivu_20_09_2_kaytto_ohjaus-ja_valvontalaitteet.pdf",
+                        "title": "sivu_20_09_2_kaytto_ohjaus-ja_valvontalaitteet.pdf"
+                    },
+                    {
+                        "url": "/assets/files/parma10/parma10_sivu_21_09_2_kaytto_ohjaus-ja_valvontalaitteet.pdf",
+                        "title": "sivu_21_09_2_kaytto_ohjaus-ja_valvontalaitteet.pdf"
+                    },
+                    {
+                        "url": "/assets/files/parma10/parma10_sivu_22_09_2_kaytto_ohjaus-ja_valvontalaitteet.pdf",
+                        "title": "sivu_22_09_2_kaytto_ohjaus-ja_valvontalaitteet.pdf"
+                    },
+                    {
+                        "url": "/assets/files/parma10/parma10_sivu_23_09_2_kaytto_ohjaus-ja_valvontalaitteet.pdf",
+                        "title": "sivu_23_09_2_kaytto_ohjaus-ja_valvontalaitteet.pdf"
+                    },
+                    {
+                        "url": "/assets/files/parma10/parma10_sivu_24_09_2_kaytto_ohjaus-ja_valvontalaitteet.pdf",
+                        "title": "sivu_24_09_2_kaytto_ohjaus-ja_valvontalaitteet.pdf"
+                    },
+                    {
+                        "url": "/assets/files/parma10/parma10_sivu_25_09_3_kaytto_erillinen_ohjaus-ja_valvontalaitte.pdf",
+                        "title": "sivu_25_09_3_kaytto_erillinen_ohjaus-ja_valvontalaitte.pdf"
+                    },
+                    {
+                        "url": "/assets/files/parma10/parma10_sivu_26_09_3_kaytto_erillinen_ohjaus-ja_valvontalaitte.pdf",
+                        "title": "sivu_26_09_3_kaytto_erillinen_ohjaus-ja_valvontalaitte.pdf"
+                    },
+                    {
+                        "url": "/assets/files/parma10/parma10_sivu_27_09_3_kaytto_erillinen_ohjaus-ja_valvontalaitte.pdf",
+                        "title": "sivu_27_09_3_kaytto_erillinen_ohjaus-ja_valvontalaitte.pdf"
+                    },
+                    {
+                        "url": "/assets/files/parma10/parma10_sivu_28_09_4_kaytto_elektroninen_iimanpuhdistin.pdf",
+                        "title": "sivu_28_09_4_kaytto_elektroninen_iimanpuhdistin.pdf"
+                    }
+                ]
+            },
+            {
+                "title": "Parma 10 - Esite ",
+                "description": "Esite",
+                "files": [
+                    {
+                        "title": "Sivu 1/5",
+                        "url": "/assets/files/parma10/esite/parma10_esite_1.jpg"
+                    },
+                    {
+                        "title": "Sivu 2/5",
+                        "url": "/assets/files/parma10/esite/parma10_esite_2.jpg"
+                    },
+                    {
+                        "title": "Sivu 3/5",
+                        "url": "/assets/files/parma10/esite/parma10_esite_3.jpg"
+                    },
+                    {
+                        "title": "Sivu 4/5",
+                        "url": "/assets/files/parma10/esite/parma10_esite_4.jpg"
+                    },
+                    {
+                        "title": "Sivu 5/5",
+                        "url": "/assets/files/parma10/esite/parma10_esite_5.jpg"
+                    }
+                ]
+            },
+            {
+                "title": "Parma 10 - tekniset piirustukset ",
+                "description": "Tekninen dokumentaatio",
+                "files": [
+                    {
+                        "title": "Sähkökaavio",
+                        "url": "/assets/files/parma10/parma10_sahkokaavio.pdf"
                     }
                 ]
             },
@@ -25,28 +165,27 @@
                 "description": "eeprom data",
                 "files": [
                     {
-                        "title": "Parma 10 eprom E1 1/2",
+                        "title": "eprom E1 1/2",
                         "url": "../parma10.pdf"
                     },
                     {
-                        "title": "Parma 10 eprom E1 2/2",
+                        "title": "eprom E1 2/2",
                         "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
                     },
                     {
-                        "title": "Parma 10 eprom E2 1/3",
+                        "title": "eprom E2 1/3",
                         "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
                     },
                     {
-                        "title": "Parma 10 eprom E2 2/3",
+                        "title": "eprom E2 2/3",
                         "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
                     },
                     {
-                        "title": "Parma 10 eprom E2 3/3 ",
+                        "title": "eprom E2 3/3 ",
                         "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
                     }
                 ]
             }
-
         ]
     },
     {
