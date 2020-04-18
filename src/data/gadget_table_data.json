@@ -19,6 +19,65 @@
                         "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
                     }
                 ]
+            },
+            {
+                "title": "Parma 10 - eprom listaus ",
+                "description": "eeprom data",
+                "files": [
+                    {
+                        "title": "Parma 10 eprom E1 1/2",
+                        "url": "../parma10.pdf"
+                    },
+                    {
+                        "title": "Parma 10 eprom E1 2/2",
+                        "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
+                    },
+                    {
+                        "title": "Parma 10 eprom E2 1/3",
+                        "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
+                    },
+                    {
+                        "title": "Parma 10 eprom E2 2/3",
+                        "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
+                    },
+                    {
+                        "title": "Parma 10 eprom E2 3/3 ",
+                        "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
+                    }
+                ]
+            }
+
+        ]
+    },
+    {
+        "gadget": "Valmet Kotilämpö D1000",
+        "data": [
+            {
+                "title": "Valmet Kotilämpö D1000",
+                "files": [
+                    {
+                        "title": "Liesikuvun säätimet",
+                        "url": "../parma10.pdf"
+                    },
+                    {
+                        "title": "Sähkökaavio",
+                        "url": "../parma10.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "gadget": "Valmet Kotilämpö E1000",
+        "data": [
+            {
+                "title": "Valmet Kotilämpö E1000",
+                "files": [
+                    {
+                        "title": "Sivu 00: Sisällysluettelo ",
+                        "url": "../parma10.pdf"
+                    }
+                ]
             }
         ]
     },
@@ -35,20 +94,6 @@
                     },
                     {
                         "title": "Käyttöopas 2",
-                        "url": "../parma10.pdf"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "gadget": "Valmet Kotilämpö E1000",
-        "data": [
-            {
-                "title": "Valmet Kotilämpö E1000",
-                "files": [
-                    {
-                        "title": "Sivu 00: Sisällysluettelo ",
                         "url": "../parma10.pdf"
                     }
                 ]
