@@ -195,12 +195,12 @@
                 "title": "Valmet Kotilämpö D1000",
                 "files": [
                     {
-                        "title": "Liesikuvun säätimet",
-                        "url": "../parma10.pdf"
+                        "url": "/assets/files/valmet_kotilampo_d1000/valmet_kaukolampo_liesikuvan_saatimet.pdf",
+                        "title": "Liesikuvun säätimet ja kaavio"
                     },
                     {
-                        "title": "Sähkökaavio",
-                        "url": "../parma10.pdf"
+                        "url": "/assets/files/valmet_kotilampo_d1000/valmet_kotilampo_d1000_sahkokaavio.pdf",
+                        "title": "Käyttöohje ja sähkökaavio"
                     }
                 ]
             }
