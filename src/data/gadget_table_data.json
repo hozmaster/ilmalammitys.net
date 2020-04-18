@@ -296,16 +296,16 @@
         "gadget": "HomeAir",
         "data": [
             {
-                "title": "HomeAir",
+                "title": "Malli: HA-20",
                 "description": "Käyttöoppaat",
                 "files": [
                     {
-                        "url": "/assets/files/homeair/Homeair.pdf",
-                        "title": "Kytkentäkaavio"
+                        "url": "/assets/files/homeair/homeair.pdf",
+                        "title": "Käyttöopas (16 Mt)"
                     },
                     {
-                        "url": "/assets/files/homeair/Homeair_tekniset_tiedot.pdf",
-                        "title": "Käyttöopas (16 Mt)"
+                        "url": "/assets/files/homeair/homeair_tekniset_tiedot.pdf",
+                        "title": "Tekniset tiedot"
                     }
                 ]
             }
@@ -319,8 +319,8 @@
                 "description": "Käyttöoppaat",
                 "files": [
                     {
-                        "title": "Sivu 00: Sisällysluettelo ",
-                        "url": "../parma10.pdf"
+                        "url": "/assets/files/termovent/Suomen_puhallintehdas_Termovent_RCMA.pdf",
+                        "title": "Termovent käyttöopas - Fläck Woods - Puhallintehdas"
                     }
                 ]
             }
@@ -352,7 +352,6 @@
                         "url": "/assets/files/osy_energiset/energiset_osy_1.pdf",
                         "title": "Energiset, ELK 60201/ELKE 60211 Keittiömalli"
                     },
-
                     {
                         "url": "assets/files/osy_energiset/energiset_osy_2.pdf",
                         "title": "Energiset, EKI 60001/EIKE 60011 Kiertoilmakoje"
@@ -373,8 +372,16 @@
                 "description": "Käyttöoppaat",
                 "files": [
                     {
-                        "title": "Sivu 00: Sisällysluettelo ",
-                        "url": "../parma10.pdf"
+                        "url": "/assets/files/ila15/ILA_15_asennus_kaytto_huolto_ohje.pdf",
+                        "title": "ILA-15 käyttö ja huoltoopas"
+                    },
+                    {
+                        "url": "/assets/files/ila15/ILA_15_esite.pdf",
+                        "title": "ILA-15 esite"
+                    },
+                    {
+                        "url": "/assets/files/ila15/ILA_15_hinnasto_02_01_1980.pdf",
+                        "title": "ILA-15 hinnasto 01.02.1980"
                     }
                 ]
             }
