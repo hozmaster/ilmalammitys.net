@@ -21,6 +21,14 @@ class FileListTable extends React.Component {
 
     }
 
+    componentDidUpdate(prevProps) {
+        if (prevProps.selectGadget !== this.props.selectGadget) {
+            console.log("props changed", this.props.selectGadget);
+            this.setState(
+                {theGadget: this.props.selectGadget})
+        }
+    }
+
     getGadgetData(gadget) {
         let results = gadgetFiles.find(element => element.gadget === gadget);
         if (results === undefined) {
