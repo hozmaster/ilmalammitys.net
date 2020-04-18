@@ -5,7 +5,6 @@
 import React from 'react'
 import {Header, Table} from 'semantic-ui-react'
 import TableRowLink from './TableRowLink'
-import {array} from "prop-types";
 
 const singleTable = require("../../data/gadget_single_item.json");
 const gadgetFiles = require("../../data/gadget_table_data.json");

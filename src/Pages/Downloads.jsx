@@ -4,13 +4,13 @@
 
 import React from 'react'
 import {Container, Header} from 'semantic-ui-react'
-import FileListDropDown from "./FileSections/FileListDropDown";
-import FileListTable from "./FileSections/FileListTable"
+import FileListDropDown from "./Downloads/FileListDropDown";
+import FileListTable from "./Downloads/FileListTable"
 import { connect } from "react-redux"
 import * as actions from '../actions'
 import PropTypes from "prop-types";
 
-class FileListings extends React.Component {
+class Downloads extends React.Component {
 
     constructor(props) {
         super(props);
@@ -54,4 +54,4 @@ const gadgetList = state => {
 
 };
 
-export default connect(gadgetList, actions)(FileListings);
+export default connect(gadgetList, actions)(Downloads);

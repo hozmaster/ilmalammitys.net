@@ -10,7 +10,7 @@ import {
 
 import Home from "./Pages/Home";
 import TechnicInfo from "./Pages/Technic";
-import FileListings from "./Pages/FileListings"
+import FileListings from "./Pages/Downloads"
 import Manufacturers from "./Pages/Manufacturers";
 import Feedback from "./Pages/Feedback";
 import Footer from "./Components/Footer";
