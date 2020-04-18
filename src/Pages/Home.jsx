@@ -6,9 +6,7 @@ import React from 'react'
 import {Container, Header} from "semantic-ui-react";
 
 const Home = () => <div>
-    <p></p>
-
-    <Header as={'h3'}>Ilmalämmitys lyhyesti </Header>
+    <Header style={{marginTop: "2em"}} as={'h3'}>Ilmalämmitys lyhyesti </Header>
     <Container textAlign={"justified"}>Ilmalämmityksessä huoneisto lämmitetään lämpimän ilman avulla. Lämmitetty ilma
         tuodaan huoneisiin ilmakanavia pitkin huoneisiin. Ilmakanavat sijaitsevat lattiassa sokkelissa taikka talon
         rakenteissa. Ilma jaetaan huoneistoihin lattian rajassa olevien ritilöiden avulla.</Container>
@@ -19,7 +17,6 @@ const Home = () => <div>
     <p></p>
     <Container textAlign={"justified"}>Aika on rajallinen määre joka pysyy samana ja on minulla täyteen ahdettu. Siksi
         en tarjoa apua taikka tukea puhelimitse. Toki vastaan sähköpostiin kun ehdin. </Container>
-
 
     <Header as={'h4'}>Yleistä </Header>
 

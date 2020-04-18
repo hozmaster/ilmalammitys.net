@@ -7,7 +7,7 @@ import {Header} from "semantic-ui-react";
 
 const Manufacturers = () => <div>
     <p></p>
-    <Header as={"h3"}>Valmistajat</Header>
+    <Header style={{marginTop: "2em"}} as={"h3"}>Valmistajat</Header>
     <p>Ilmalämmityksessä huoneisto lämmitetään lämpimän ilman avulla. Lämmitetty ilma tuodaan huoneisiin ilmakanavia
         pitkin huoneisiin. Ilmakanavat sijaitsevat lattiassa sokkelissa taikka talon rakenteissa. Ilma jaetaan
         huoneistoihin lattian rajassa olevien ritilöiden avulla.</p>

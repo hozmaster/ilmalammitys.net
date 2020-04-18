@@ -12,7 +12,7 @@ import Home from "./Pages/Home";
 import TechnicInfo from "./Pages/Technic";
 import FileListings from "./Pages/Downloads"
 import Manufacturers from "./Pages/Manufacturers";
-import Feedback from "./Pages/Feedback";
+import Other from "./Pages/Other";
 import Footer from "./Components/Footer";
 
 function App() {
@@ -27,13 +27,12 @@ function App() {
                         <NavLink exact to={'/valmistajat'} activeClassName="active" className="item">Valmistajat</NavLink>{' '}
                         <NavLink exact to={'/yleista'} activeClassName="active" className="item">Yleistä</NavLink>{' '}
                     </div>
-                    <p> </p>
                     <Switch>
                         <Route exact path="/" component={Home}/>
                         <Route path='/tekniikka'  component={TechnicInfo}/>
                         <Route path='/tiedostot' component={FileListings}/>
                         <Route path='/valmistajat' component={Manufacturers}/>
-                        <Route path='/yleista' component={Feedback}/>
+                        <Route path='/yleista' component={Other}/>
                     </Switch>
                     <Footer/>
                 </div>

@@ -8,7 +8,7 @@ import {Header} from "semantic-ui-react";
 const Technic = () => <div>
 
     <p></p>
-    <Header as={"h3"}> Lämmönjakeskus </Header>
+    <Header style={{marginTop: "2em"}} as={"h3"}> Lämmönjakeskus </Header>
 
     <p>Varsinaisen lämmityksen lisäksi tarvitaan siis lämmönjakokeskus joka huolehtii lämpimän veden lämmityksestä ja
         joka välittää kulloinkin ajankohtaan sopivan määrän kaukolämpöä ilmalämmityslaitteen vesipatteristoon. Suomessa

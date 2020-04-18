@@ -2,14 +2,11 @@
  * Copyright (c) 2020.  Olli-Pekka Wallin All rights reserved
  */
 
-import React from 'react'
-import {Container, Header} from "semantic-ui-react";
-import LinkListings from "./Links/LinkListings";
 
-const Feedback = () => <div>
-    <p></p>
-    <LinkListings/>
-    <Header as={"h2"}>Palaute</Header>
+import React from "react";
+import {Container, Header} from "semantic-ui-react";
+
+const FeedBackRot = () => <div>
     <Header as={"h4"}> Nim. "ROT"</Header>
     <Container textAlign={"justified"}>Jo vuonna 1980 Hankkijan ja Puolimatkan Rakennusvalmiste Oy:n välillä oli
         läheistä yhteistyötä ja yksi ilmentymä oli PARMA-ilmalämmitysjärjestelmän markkinointi. Meille asennettiin ko.
@@ -40,4 +37,5 @@ const Feedback = () => <div>
         lämmitysteho? Eli jälkimmäinen on kai tarkoitettu juuri maalämpösysteemeihin? Toivottavasti kauppiaat osaavat
         selittää..</Container>
 </div>
-export default Feedback
+
+export default FeedBackRot

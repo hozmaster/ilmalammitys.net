@@ -8,7 +8,7 @@ import React from "react";
 import theLinks from '../../data/other_links';
 
 const LinkListings = () => <div>
-    <Header style={{marginTop: "2em"}} as={"h2"}> Linkit </Header>
+    <Header style={{marginTop: "2em"}} as={"h3"}> Linkit </Header>
     <div>
         {Object.values(theLinks.map(
             ({text, url}) => {
