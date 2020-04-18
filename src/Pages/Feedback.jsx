@@ -4,7 +4,7 @@
 
 import React from 'react'
 import {Container, Header} from "semantic-ui-react";
-import LinkListings from "./random_links/LinkListings";
+import LinkListings from "./Links/LinkListings";
 
 const Feedback = () => <div>
     <p> </p>
