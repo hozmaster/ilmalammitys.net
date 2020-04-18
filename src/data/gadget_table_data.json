@@ -247,8 +247,12 @@
                 "description": "Käyttöoppaat",
                 "files": [
                     {
-                        "title": "Sivu 00: Sisällysluettelo ",
-                        "url": "../parma10.pdf"
+                        "url": "/assets/files/oilon_oiva/oilon_oiva_ilmalammitys.pdf",
+                        "title": "Esite"
+                    },
+                    {
+                        "url": "/assets/files/oilon_oiva/oilon_oiva_20131203170654.pdf",
+                        "title": "Käyttöopas"
                     }
                 ]
             }
@@ -262,8 +266,12 @@
                 "description": "Käyttöoppaat",
                 "files": [
                     {
-                        "title": "Sivu 00: Sisällysluettelo ",
-                        "url": "../parma10.pdf"
+                        "url": "/assets/files/homeair/Homeair.pdf",
+                        "title": "Kytkentäkaavio"
+                    },
+                    {
+                        "url": "/assets/files/homeair/Homeair_tekniset_tiedot.pdf"
+                        "title": "Käyttöopas (16 Mt)"
                     }
                 ]
             }
