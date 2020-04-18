@@ -1,9 +1,11 @@
 [
     {
+        "key" : "salo_tommi",
         "text" : "Omakotitalon ilmalämmitysjärjestelmän toiminnan tarkastelu. ",
         "url" : "https://www.theseus.fi/bitstream/handle/10024/106554/Salonen_Tommi.pdf?sequence=1"
     },
     {
+        "key" : "amk-201005037462",
         "text" : "Kotilämpö-ilmalämmityksen lämmönlähteen saneeraus",
         "url" : "http://urn.fi/URN:NBN:fi:amk-201005037462"
     }
