@@ -1,0 +1,57 @@
+[
+    {
+        "key": "htr_home_air",
+        "text": "HomeAir",
+        "value": "HomeAir"
+    },
+    {
+        "key": "htr_parma10",
+        "text": "Parma 10",
+        "value": "Parma 10"
+    },
+    {
+        "key": "htr_valmet_home_d1000",
+        "text": "Valmet Kotilämpö D1000",
+        "value": "Valmet Kotilämpö D1000"
+    },
+    {
+        "key": "htr_valmet_home_e1000s",
+        "text": "Valmet Kotilämpö E1000",
+        "value": "Valmet Kotilämpö E1000"
+    },
+    {
+        "key": "htr_valmet_home_f1000s",
+        "text": "Valmet Kotilämpö F1000S",
+        "value": "Valmet Kotilämpö F1000S"
+    },
+    {
+        "key": "htr_oilon",
+        "text": "Oilon",
+        "value": "Oilon"
+    },
+    {
+        "key": "htr_termovent",
+        "text": "Termovent",
+        "value": "Termovent"
+    },
+    {
+        "key": "htr_himablock",
+        "text": "Himablock",
+        "value": "Himablock"
+    },
+    {
+        "key": "htr_energiset_osy",
+        "text": "Energiset OSY",
+        "value": "Energiset OSY"
+    },
+    {
+        "key": "htr_ila_15",
+        "text": "ILA-15",
+        "value": "ILA-15"
+    },
+    {
+        "key": "trm_honeywell",
+        "text": "Honeywell",
+        "value": "Honeywell"
+    }
+]

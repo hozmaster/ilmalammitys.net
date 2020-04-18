@@ -1,0 +1,33 @@
+{
+    "gadget": "Valmet Kotilämpö F1000S",
+    "data": [
+        {
+            "title": "User manuals",
+            "description": "Käyttöoppaat",
+            "files": [
+                {
+                    "title": "Käyttöopas 1",
+                    "url": "../parma10.pdf"
+                },
+                {
+                    "title": "Käyttöopas 2",
+                    "url": "../parma10.pdf"
+                }
+            ]
+        },
+        {
+            "title": "eeprom files",
+            "description": "Käyttöoppaat",
+            "files": [
+                {
+                    "title": "Käyttöopas 1",
+                    "url": "../parma10.pdf"
+                },
+                {
+                    "title": "Käyttöopas 2",
+                    "url": "../parma10.pdf"
+                }
+            ]
+        }
+    ]
+}
