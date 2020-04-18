@@ -6,7 +6,7 @@ import React from 'react'
 import {Container, Header} from 'semantic-ui-react'
 import FileListDropDown from "./Downloads/FileListDropDown";
 import FileListTable from "./Downloads/FileListTable"
-import { connect } from "react-redux"
+import {connect} from "react-redux"
 import * as actions from '../actions'
 
 class Downloads extends React.Component {
@@ -25,15 +25,16 @@ class Downloads extends React.Component {
             <div>
                 <Header style={{marginTop: "2em"}} as={"h3"} className="ui header">Tiedostot</Header>
                 <Container textAlign='justified'> Nämä tiedostot on saatu useiden yksityisten käyttäjien toimesta pitkän
-                    ajan kuluessa. Nämä näyttävät oikeilta päällisin puolin ... mutta ... En kuitenkaan pysty takaamaan esim
+                    ajan kuluessa. Nämä näyttävät oikeilta päällisin puolin ... mutta ... En kuitenkaan pysty takaamaan
+                    esim
                     sähkökaavioiden tai muiden tiedostojen oikeellisuutta sekä turvallisuutta joten ymmärtänet sen että
                     käytät näitä tiedostoja omalla vastuulla. </Container>
-                <p> </p>
+                <p></p>
                 <Container textAlign={"justified"}>Erittäin suuret kiitokset tiedostojen lähettäjille.</Container>
-                <p> </p>
+                <p></p>
                 <FileListDropDown onSelectGadgetDevice={this.selectGadgetDevice}/>
-                <p> </p>
-                <FileListTable selectGadget = { this.state.selectGadget }/>
+                <p></p>
+                <FileListTable selectGadget={this.state.selectGadget}/>
             </div>
         )
     }

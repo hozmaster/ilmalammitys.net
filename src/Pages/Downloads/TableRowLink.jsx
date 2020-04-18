@@ -5,7 +5,7 @@
 import React from 'react'
 // import PropTypes from 'prop-types'
 
-const TableRowLink = ({ text, url }) =>
+const TableRowLink = ({text, url}) =>
     <a href={url}>
         {text}
     </a>;

@@ -16,11 +16,12 @@ class FileListTable extends React.Component {
         this.state = {
             theGadget: this.props.selectGadget,
             tableData: singleTable,
-            activePage: 1};
+            activePage: 1
+        };
 
     }
 
-    getGadgetData(gadget)  {
+    getGadgetData(gadget) {
         let results = gadgetFiles.find(element => element.gadget === gadget);
         if (results === undefined) {
             results = singleTable;
@@ -29,30 +30,30 @@ class FileListTable extends React.Component {
     }
 
     render() {
-        const tableData = this.getGadgetData( this.props.selectGadget);
+        const tableData = this.getGadgetData(this.props.selectGadget);
         return (
             <div>
                 {Object.values(tableData["data"].map(function (object, i) {
                         return (
                             <div key={i}>
                                 <Header style={{marginTop: "2em"}} as={'h4'}> {object.title} </Header>
-                                <Table compact >
-                                        <Table.Body>
-                                            {Object.values(object.files.map(function (object, i) {
-                                                    return (
-                                                        <Table.Row key={i}>
-                                                            <Table.Cell> <TableRowLink text={object.title} url={object.url}/>
-                                                            </Table.Cell>
-                                                        </Table.Row>
-                                                    );
-                                                }
-                                            ))}
-                                        </Table.Body>
+                                <Table compact>
+                                    <Table.Body>
+                                        {Object.values(object.files.map(function (object, i) {
+                                                return (
+                                                    <Table.Row key={i}>
+                                                        <Table.Cell> <TableRowLink text={object.title} url={object.url}/>
+                                                        </Table.Cell>
+                                                    </Table.Row>
+                                                );
+                                            }
+                                        ))}
+                                    </Table.Body>
                                 </Table>
                             </div>
                         )
                     }
-                    ))}
+                ))}
             </div>
         )
     }
