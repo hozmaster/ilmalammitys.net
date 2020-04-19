@@ -35,12 +35,11 @@ const Home = () => <div>
 
     <Header as={'h4'}>Muuta</Header>
     <Container textAlign={"justified"}>Jos sinulla on olemassa jokin ilmalämmityslaitteisto jota ei ole tällä sivustolla
-        mainittu, ota yhteyttä joko sähköpostin taikka Issues-toimminnon kautta. Samalla esitteistä kaaviokuvia taikka
+        mainittu, ota yhteyttä joko sähköpostin taikka Githubin Issues-toimminnon kautta. Samalla esitteistä kaaviokuvia taikka
         teknisiä tietoja kuten sähkö-ja puhallustietoja
         koskien ilmalämmitysklaitteistoja niin otan mielellään vastaan ja laitan ne sitten tälle
         sivustolle. </Container>
 
-
-</div>;
+</div>
 export default Home
 
