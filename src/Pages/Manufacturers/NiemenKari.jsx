@@ -9,7 +9,7 @@ import {HttpLink} from "../../Components/HttpLink";
 
 export const NiemenKari = () => <div>
     <Header style={{marginTop: "2em"}} as={'h4'}> Parmair Oy</Header>
-    <Container>Ilmalämmityskone Lämpö-Iiwari. Käytännössä Lämpö Iiwari on täysin saneerauskohteisiin tarkoitettu
+    <Container textAlign={"justified"}>Ilmalämmityskone Lämpö-Iiwari. Käytännössä Lämpö Iiwari on täysin saneerauskohteisiin tarkoitettu
         laitteisto
         kaikkien vanhojen mallien tilalle. Lämmityspatteri toimii vedellä.
         Valmistetaan Suomessa.

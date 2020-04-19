@@ -7,7 +7,7 @@ import {HttpLink} from "../../Components/HttpLink";
 
 export const Oltik = () => <div>
     <Header style={{marginTop: "2em"}} as={'h4'}> Oltik Oy </Header>
-    <Container>
+    <Container textAlign={"justified"}>
         Tarjoaa ilmalämmityslaitteiden saneerauspalveluita koko maan alueella.
         Etupäässä mm Upovarin, Haatovarin, Upokalorin, Haatokalorin sekä
         muiden ilmalämmityslaitteiden modernisoinnit, korjaamiset ja tarjoaa varaosia.

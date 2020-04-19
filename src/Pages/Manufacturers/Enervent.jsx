@@ -7,7 +7,7 @@ import {HttpLink} from "../../Components/HttpLink";
 
 export const Enervent = () => <div>
     <Header style={{marginTop: "2em"}} as={'h4'}> Enervent Oy</Header>
-    <Container>
+    <Container textAlign={"justified"}>
         Tarjoaa etupäässä Valmet Kotilämmön
         saneeraus kohteisiin Enervent Pingvin Kotilämpö-laitetta eri
         lämmityspatteri vaihtoehdoilla. Tarjoaa mahdollisuuden sovittaa

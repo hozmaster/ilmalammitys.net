@@ -8,7 +8,7 @@ import {HttpLink} from "../../Components/HttpLink";
 
 export const HLHeat = () => <div>
     <Header style={{marginTop: "2em"}} as={'h4'}> HLHeat Oy </Header>
-    <Container>
+    <Container textAlign={"justified"}>
         Tarjoaa
         vaihtoehtoa olemassaoleviin sekä uusiin ilmalämmityskohteisiin.
         Ilmalämmityspaketin 'High Light Smart System'.
