@@ -11,9 +11,9 @@ const LinkListings = () => <div>
     <Header style={{marginTop: "2em"}} as={"h3"}> Linkit </Header>
     <div>
         {Object.values(theLinks.map(
-            ({text, url}) => {
+            ({text, url, key}) => {
                 return (
-                    <div>
+                    <div key={key}>
                         <a href={url}>
                             {text}
                         </a>
