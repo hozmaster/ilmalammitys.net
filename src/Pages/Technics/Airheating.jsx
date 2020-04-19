@@ -28,7 +28,7 @@ export const Airheating = () => <div>
         katsottuna vasemmalla. Tämä
         puhallin
         on selvästi pienempi kuin poistoilmapuhallin, ja tarvitsee 2mikroF kondesaattorin (siis Vallox:in mukaan,
-        ainakaan meillä ei kodensaattoria asennettu). Käynnistyy yhtäaikasesti poistoilmapuhaltimen kanssa.</Container>
+        ainakaan meillä ei kondensaattoria asennettu). Käynnistyy yhtäaikasesti poistoilmapuhaltimen kanssa.</Container>
 
     <Header as={"h4"}> Poistopuhallin </Header>
 
