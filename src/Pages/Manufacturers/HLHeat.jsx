@@ -4,7 +4,7 @@
 
 import React from "react";
 import {Container, Header} from "semantic-ui-react";
-import {Link} from "./Link";
+import {HttpLink} from "../../Components/HttpLink";
 
 export const HLHeat = () => <div>
     <Header style={{marginTop: "2em"}} as={'h4'}> HLHeat Oy </Header>
@@ -19,5 +19,5 @@ export const HLHeat = () => <div>
         Vesilämpöpatteriston lämmitys voidaan hoitaa sekä sähköllä että
         vedellä.
     </Container>
-    <Link url={"https://hl-heat.fi/"} text={'https://hl-heat.fi/'}/>
+    <HttpLink url={"https://hl-heat.fi/"} text={'https://hl-heat.fi/'}/>
 </div>

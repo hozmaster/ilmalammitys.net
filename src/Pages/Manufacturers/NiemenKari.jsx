@@ -5,7 +5,7 @@
 
 import React from "react";
 import {Container, Header} from "semantic-ui-react";
-import {Link} from "./Link";
+import {HttpLink} from "../../Components/HttpLink";
 
 export const NiemenKari = () => <div>
     <Header style={{marginTop: "2em"}} as={'h4'}> Parmair Oy</Header>
@@ -16,5 +16,5 @@ export const NiemenKari = () => <div>
         <br/>
         Entinen niemi-kari Oy.
     </Container>
-    <Link url={'https://www.parmair.com/ilmalammitys/'} text={'https://www.parmair.com'}/>
+    <HttpLink url={'https://www.parmair.com/ilmalammitys/'} text={'https://www.parmair.com'}/>
 </div>

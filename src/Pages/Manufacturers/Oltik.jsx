@@ -3,8 +3,7 @@
  */
 import React from "react";
 import {Container, Header} from "semantic-ui-react";
-import {Link} from "./Link";
-
+import {HttpLink} from "../../Components/HttpLink";
 
 export const Oltik = () => <div>
     <Header style={{marginTop: "2em"}} as={'h4'}> Oltik Oy </Header>
@@ -14,5 +13,5 @@ export const Oltik = () => <div>
         muiden ilmalämmityslaitteiden modernisoinnit, korjaamiset ja tarjoaa varaosia.
         Toimialueena on koko Suomi.<br/>
     </Container>
-    <Link text={'https://www.oltik.fi/'} url={'https://www.oltik.fi/'}/>
+    <HttpLink text={'https://www.oltik.fi/'} url={'https://www.oltik.fi/'}/>
 </div>

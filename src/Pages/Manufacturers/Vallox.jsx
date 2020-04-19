@@ -4,7 +4,7 @@
 
 import React from "react";
 import {Container, Header} from "semantic-ui-react";
-import {Link} from "./Link";
+import {HttpLink} from "../../Components/HttpLink";
 
 export const Vallox = () => <div>
     <Header style={{marginTop: "2em"}} as={'h4'}> Vallox Oy</Header>
@@ -20,5 +20,5 @@ export const Vallox = () => <div>
         kotilämpö laitteistohin kannattaa
         kysyä Vallox Oy:ltä.
     </Container>
-    <Link url={'https://www.vallox.com'} text={'https://www.vallox.com'}/>
+    <HttpLink url={'https://www.vallox.com'} text={'https://www.vallox.com'}/>
 </div>
