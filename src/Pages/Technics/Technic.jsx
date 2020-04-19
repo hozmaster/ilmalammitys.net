@@ -3,8 +3,8 @@
  */
 
 import React from "react";
-import {Container} from "semantic-ui-react";
+import {Airheating} from "./Airheating";
 
 export const Technic = () => <div>
-    <Container> D </Container>
+    <Airheating/>
 </div>
