@@ -7,7 +7,6 @@ import {Header} from "semantic-ui-react";
 import {Manufactures} from "./Manufacturers/Manufactures";
 
 const Manufacturers = () => <div>
-    <p></p>
     <Header style={{marginTop: "2em"}} as={"h3"}>Valmistajat</Header>
     <Manufactures/>
 </div>

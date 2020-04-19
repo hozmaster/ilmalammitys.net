@@ -6,7 +6,6 @@ import React from 'react'
 import {Header, Table} from 'semantic-ui-react'
 import TableRowLink from './TableRowLink'
 
-const singleTable = require("../../data/gadget_single_item.json");
 const gadgetFiles = require("../../data/gadget_table_data.json");
 
 class FileListTable extends React.Component {
@@ -15,7 +14,6 @@ class FileListTable extends React.Component {
         super(props);
         this.state = {
             theGadget: this.props.selectGadget,
-            tableData: singleTable,
             activePage: 1
         };
 
@@ -29,15 +27,14 @@ class FileListTable extends React.Component {
     }
 
     getGadgetData(gadget) {
-        let results = gadgetFiles.find(element => element.gadget === gadget);
-        if (results === undefined) {
-            results = singleTable;
-        }
-        return results;
+        return gadgetFiles.find(element => element.gadget === gadget);
     }
 
     render() {
-        const tableData = this.getGadgetData(this.props.selectGadget);
+        let tableData = this.getGadgetData(this.state.selectGadget);
+        if (tableData === undefined) {
+            tableData = this.getGadgetData(this.props.selectGadget);
+        }
         return (
             <div>
                 {Object.values(tableData["data"].map(function (object, i) {
