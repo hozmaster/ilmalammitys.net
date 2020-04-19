@@ -25,7 +25,7 @@ const Technic = () => <div>
     <Header as={"h5"}>Puhaltimet:</Header>
 
     <p>Laitteessa on siis ainakin kolme erilaista puhallinta: poistoilmanpuhallin, raitisilmapuhallin ja varsinainen
-        lämminilmanpuhallin joka puhaltaa lämmitettävän ilman lämmityspatteriston lävitse talon ilmakanavavistoon.></p>
+        lämminilmanpuhallin joka puhaltaa lämmitettävän ilman lämmityspatteriston lävitse talon ilmakanavavistoon.</p>
 
     <Header as={"h5"}>Raitisilmapuhallin</Header>
 
