@@ -46,7 +46,7 @@ class FileListTable extends React.Component {
                                         {Object.values(object.files.map(function (object, i) {
                                                 return (
                                                     <Table.Row key={i}>
-                                                        <Table.Cell> <TableRowLink text={object.title} url={object.url}/>
+                                                        <Table.Cell> <TableRowLink text={object.title} url={process.env.PUBLIC_URL + object.url}/>
                                                         </Table.Cell>
                                                     </Table.Row>
                                                 );

@@ -372,15 +372,15 @@
                 "description": "Käyttöoppaat",
                 "files": [
                     {
-                        "url": "/assets/files/ila15/ILA_15_asennus_kaytto_huolto_ohje.pdf",
+                        "url": "/assets/ila15/asennus_kaytto_huolto_ohje.pdf",
                         "title": "ILA-15 käyttö ja huoltoopas"
                     },
                     {
-                        "url": "/assets/files/ila15/ILA_15_esite.pdf",
+                        "url": "/assets/ila15/esite.pdf",
                         "title": "ILA-15 esite"
                     },
                     {
-                        "url": "/assets/files/ila15/ILA_15_hinnasto_02_01_1980.pdf",
+                        "url": "/assets/ila15/hinnasto_02_01_1980.pdf",
                         "title": "ILA-15 hinnasto 01.02.1980"
                     }
                 ]
