@@ -2,7 +2,7 @@
  * Copyright (c) 2020.  Olli-Pekka Wallin All rights reserved
  */
 
-const resolveFileArray = require('../actions/resolvefilelistdata');
+const resolveFileArray = require('../data/resolvefilelistdata');
 
 test('gadget resolve, fetch data Oilon', () => {
     expect(resolveFileArray("Oilon")).toBeTruthy()

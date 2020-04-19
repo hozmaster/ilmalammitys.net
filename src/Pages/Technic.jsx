@@ -3,15 +3,12 @@
  */
 
 import React from 'react'
-import {Header} from "semantic-ui-react";
 import {Airheating} from "./Technics/Airheating";
 import {CentralHeating} from "./Technics/CentralHeating";
 
 const Technic = () => <div>
-
     <Airheating style={{marginTop: "2em"}}/>
     <CentralHeating/>
-
 </div>
 
 export default Technic

@@ -6,8 +6,6 @@ import React from 'react'
 import {Container, Header} from 'semantic-ui-react'
 import FileListDropDown from "./Downloads/FileListDropDown";
 import FileListTable from "./Downloads/FileListTable"
-import {connect} from "react-redux"
-import * as actions from '../actions'
 
 class Downloads extends React.Component {
 
@@ -46,12 +44,4 @@ class Downloads extends React.Component {
     }
 }
 
-const gadgetList = state => {
-    const activeGadget = state.gadgetSelectionControls.activeGadgetDevice;
-    return {
-        activeGadget,
-    }
-
-};
-
-export default connect(gadgetList, actions)(Downloads);
+export default (Downloads);
