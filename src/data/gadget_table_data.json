@@ -244,19 +244,19 @@
                 "description": "Käyttöoppaat",
                 "files": [
                     {
-                        "url": "/assets/files/valmet_kotilampo_f1000/valmet_kotilampo_f1000_sivu1_2.pdf",
+                        "url": "/assets/valmet_kotilampo_f1000/valmet_kl_f1000s_sivu1_2.pdf",
                         "title": "Käyttöopas 1"
                     },
                     {
-                        "url": "/assets/files/valmet_kotilampo_f1000/valmet_kotilampo_f1000_sivu2_2.pdf",
+                        "url": "/assets/files/valmet_kotilampo_f1000/valmet_kl_f1000s_sivu2_2.pdf",
                         "title": "Käyttöopas 2"
                     },
                     {
-                        "url": "/assets/files/valmet_kotilampo_f1000/valmet_kotilampo_f1000_sivu3_2.pdf",
+                        "url": "/assets/files/valmet_kotilampo_f1000/valmet_kl_f1000s_sivu3_2.pdf",
                         "title": "Käyttöopas 3"
                     },
                     {
-                        "url": "/assets/files/valmet_kotilampo_f1000/valmet_kotilampo_f1000_sivu4_2.pdf",
+                        "url": "/assets/files/valmet_kotilampo_f1000/valmet_kl_f1000s_sivu4_2.pdf",
                         "title": "Käyttöopas 4 "
                     }
                 ]
@@ -267,7 +267,7 @@
                 "files": [
                     {
                         "title": "Kytkentäkaavio",
-                        "url": "/assets/files/valmet_kotilampo_f1000/valmet_f1000s_kuvansi.jpg"
+                        "url": "/assets/valmet_kotilampo_f1000/valmet_kl_f1000s_kuvansi.jpg"
                     }
                 ]
             }
