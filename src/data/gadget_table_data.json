@@ -349,15 +349,15 @@
                 "description": "Käyttöoppaat",
                 "files": [
                     {
-                        "url": "/assets/files/osy_energiset/energiset_osy_1.pdf",
+                        "url": "/assets/osy_energiset/energiset_osy_1.pdf",
                         "title": "Energiset, ELK 60201/ELKE 60211 Keittiömalli"
                     },
                     {
-                        "url": "assets/files/osy_energiset/energiset_osy_2.pdf",
+                        "url": "assets/osy_energiset/energiset_osy_2.pdf",
                         "title": "Energiset, EKI 60001/EIKE 60011 Kiertoilmakoje"
                     },
                     {
-                        "url": "/assets/files/osy_energiset/energiset_osy_3.pdf",
+                        "url": "/assets/osy_energiset/energiset_osy_3.pdf",
                         "title": "Energiset, EKI 60201/EIKE 60211 Ullakkomalli"
                     }
                 ]
