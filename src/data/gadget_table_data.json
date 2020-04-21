@@ -166,23 +166,23 @@
                 "files": [
                     {
                         "title": "eprom E1 1/2",
-                        "url": "../parma10.pdf"
+                        "url": "/assets/parma10/eeprom/parma10_eprom1_1.jpg"
                     },
                     {
                         "title": "eprom E1 2/2",
-                        "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
+                        "url": "/assets/parma10/eeprom/parma10_eprom1_2.jpg"
                     },
                     {
                         "title": "eprom E2 1/3",
-                        "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
+                        "url": "/assets/parma10/eeprom/parma10_eprom2_1.jpg"
                     },
                     {
                         "title": "eprom E2 2/3",
-                        "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
+                        "url": "/assets/parma10/eeprom/parma10_eprom2_2.jpg"
                     },
                     {
                         "title": "eprom E2 3/3 ",
-                        "url": "../files/parma10/parma10_sivu_01_01_ilmalammitysjarjestelma.pdf"
+                        "url": "/assets/parma10/eeprom/parma10_eprom2_3.jpg"
                     }
                 ]
             }
