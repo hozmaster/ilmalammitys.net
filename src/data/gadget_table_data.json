@@ -166,7 +166,7 @@
                 "files": [
                     {
                         "title": "eprom E1 1/2",
-                        "url": "/assets/parma10/eeprom/parma10_eprom1_1.jpg"
+                        "url": "/assets/parma10/eeprom/parma10_eprom_1.jpg"
                     },
                     {
                         "title": "eprom E1 2/2",
@@ -319,8 +319,8 @@
                 "description": "Käyttöoppaat",
                 "files": [
                     {
-                        "url": "/assets/termovent/Suomen_puhallintehdas_Termovent_RCMA.pdf",
-                        "title": "Termovent käyttöopas - Fläck Woods - Puhallintehdas"
+                        "url": "/assets/termovent/suomen_puhallintehdas_termovent_rcma.pdf",
+                        "title": "Trmovent käyttöopas - Fläck Woods - Puhallintehdas"
                     }
                 ]
             }
