@@ -395,20 +395,20 @@
                 "description": "Käyttöoppaat",
                 "files": [
                     {
-                        "url": "/assets/honeywell/m448a/Honeywell_VillaSystem110_M448A_Venttiilin%20toimilaite_1976.pdf",
-                        "title": "m448a"
+                        "url": "/assets/honeywell/m448a/honeywell_villasystem110_m448a_venttiilin_toimilaite_1976.pdf",
+                        "title": "Honeywell m448a Venttiliin toimilaite"
                     },
                     {
-                        "url": "/assets/honeywell/m452/Honeywell_M452_Venttiilin%20toimilaite_Lampomoottori_1987.pdf",
+                        "url": "/assets/honeywell/m452/honeywell_m452_venttiilin_toimilaite_lampomoottori_1987.pdf",
                         "title": "Honeywell M452 lämpömoottori"
                     },
                     {
-                        "url": "/assets/honeywell/t4082_t6082/Honeywell_Chronotherm_T4082_T6082_Kaytt%C3%A4jan%20opas_1978.pdf",
+                        "url": "/assets/honeywell/t4082_t6082/honeywell_chronotherm_t4082_t6082_user_manual_1978.pdf",
                         "title": "Honeywell Chronotherm t4082 t6082"
                     },
                     {
                         "url": "/assets/honeywell/v5077/Honeywell_V5077_Kaksitieistukkaventtiili_1988.pdf",
-                        "title": "Honewell Kaksitieistukkaventtiili model v5077"
+                        "title": "Honeywell Kaksitieistukkaventtiili model v5077"
                     }
                 ]
             }
