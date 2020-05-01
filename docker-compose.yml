@@ -2,7 +2,6 @@ version: '3'
 
 services:
     webapp:
-        command:  git lfs pull
         container_name: ilmalammitys_net
         image: yedor/ilmalammitys.net:1
         build:
