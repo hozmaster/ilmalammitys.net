@@ -11,12 +11,12 @@ import {
 const NoMatch = () => {
     let location = useLocation();
     return (
-        <div className="masthead error segment">
-            <div className={"container"}>
-                <h1 className="ui dividing header">
+        <div style={{marginTop: "2em"}} className="masthead error segment centered" >
+            <div className={"container"} >
+                <h1 className="ui dividing header center aligned">
                     No match for <code>{location.pathname}</code>
+                    <p style={{marginBottom: "1em"}}>  </p>
                 </h1>
-                <p>Rewind and try another one</p>
             </div>
         </div>
     )
