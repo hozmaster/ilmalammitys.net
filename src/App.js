@@ -15,7 +15,7 @@ import FileListings from "./Pages/Downloads"
 import Manufacturers from "./Pages/Manufacturers";
 import Other from "./Pages/Other";
 import Footer from "./Components/Footer";
-
+import NoMatch from "./Components/NoMatch";
 
 class App extends React.Component {
     render() {
@@ -40,12 +40,16 @@ class App extends React.Component {
                         <Route path='/tiedostot' component={FileListings}/>
                         <Route path='/valmistajat' component={Manufacturers}/>
                         <Route path='/yleista' component={Other}/>
+                        <Route path="*">
+                            <NoMatch />
+                        </Route>
                     </Switch>
                     <Footer/>
                 </div>
             </div>
         </Router>
-        )
+        );
+
     }
 }
 
