@@ -18,6 +18,8 @@ RUN npm run build
 
 ### STAGE 2: Production Environment ###
 FROM nginx:1.13.12-alpine
+RUN rm /etc/nginx/conf.d/default.conf
+COPY ./docker/default.conf /etc/nginx/conf.d
 COPY --from=build /usr/src/app/build /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
