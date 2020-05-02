@@ -30,7 +30,7 @@ const Home = () => <div>
     <p></p>
     <Container textAlign={"justified"}>Tällä hetkellä markkinoilla on muutamia valmistajia jotka valmistavat laitteita
         yksityissektorille. Nämä laitteistot on tarkoitetu lähinnä saneerauskohteisiin mutta esteitä uudisrakentamisen
-        ei pitäisi olla. Iilmälämmitysmarkkinointi ja laitteiden valmistus on suunnattu tällä hetkellä
+        ei pitäisi olla. Ilmälämmitysmarkkinointi ja laitteiden valmistus on suunnattu tällä hetkellä
         yrityskiinteistöihin kuten puutarhatilojen lämmitykseen sekä julkisiin rakennuksiin.</Container>
 
     <Header as={'h4'}>Muuta</Header>
