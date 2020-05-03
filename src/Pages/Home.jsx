@@ -34,10 +34,10 @@ const Home = () => <div>
         yrityskiinteistöihin kuten puutarhatilojen lämmitykseen sekä julkisiin rakennuksiin.</Container>
 
     <Header as={'h4'}>Muuta</Header>
-    <Container textAlign={"justified"}>Jos sinulla on olemassa jokin ilmalämmityslaitteisto jota ei ole tällä sivustolla
-        mainittu, ota yhteyttä sähköpostin kautta. Samalla esitteistä kaaviokuvia taikka
-        teknisiä tietoja kuten sähkö- ja puhallustietoja koskien ilmalämmitysklaitteistoja niin otan mielellään vastaan
-        ja laitan ne sitten tälle sivustolle. </Container>
+    <Container textAlign={"justified"}>Jos sinulla on käytössä jokin ilmalämmityslaitteisto jota ei ole tällä
+        sivustolla mainittu, ota yhteyttä sähköpostin kautta. Samalla otan vastaan esitteitä, kaaviokuvia taikka
+        teknisiä tietoja kuten sähkö- ja puhallustietoja koskien ilmalämmityslaitteistoja niin laitan ne sitten tälle
+        sivustolle. </Container>
 
 </div>
 export default Home
