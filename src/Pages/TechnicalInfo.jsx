@@ -6,9 +6,9 @@ import React from 'react'
 import {Airheating} from "./Technics/Airheating";
 import {CentralHeating} from "./Technics/CentralHeating";
 
-const Technic = () => <div>
+const TechnicalInfo = () => <div>
     <Airheating style={{marginTop: "2em"}}/>
     <CentralHeating/>
 </div>
 
-export default Technic
+export default TechnicalInfo

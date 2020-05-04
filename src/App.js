@@ -10,8 +10,8 @@ import {
 } from "react-router-dom";
 
 import Home from "./Pages/Home";
-import TechnicInfo from "./Pages/Technic";
-import FileListings from "./Pages/Downloads"
+import TechnicalInfo from "./Pages/TechnicalInfo";
+import Downloads from "./Pages/Downloads"
 import Manufacturers from "./Pages/Manufacturers";
 import Other from "./Pages/Other";
 import Footer from "./Components/Footer";
@@ -36,8 +36,8 @@ class App extends React.Component {
                     </div>
                     <Switch>
                         <Route exact path="/" component={Home}/>
-                        <Route path='/tekniikka' component={TechnicInfo}/>
-                        <Route path='/tiedostot' component={FileListings}/>
+                        <Route path='/tekniikka' component={TechnicalInfo}/>
+                        <Route path='/tiedostot' component={Downloads}/>
                         <Route path='/valmistajat' component={Manufacturers}/>
                         <Route path='/yleista' component={Other}/>
                         <Route path="*">
