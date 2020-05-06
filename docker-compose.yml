@@ -2,8 +2,8 @@ version: '3'
 
 services:
     webapp:
-        container_name: ilmalammitys_net
-        image: yedor/ilmalammitys.net:1
+        container_name: ilmalammitys.net
+        image: yedor/ilmalammitys.net:1.0
         build:
             context: .
             dockerfile: Dockerfile
