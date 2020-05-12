@@ -12,7 +12,7 @@ export const HLHeat = () => <div>
         Tarjoaa
         vaihtoehtoa olemassaoleviin sekä uusiin ilmalämmityskohteisiin ilmalämmityspakettia 'High Light Smart System'.
         <br/>
-        Laitteistona Energiset-ilmalämmityskoje.(Valmistajana Upo?) Yritys
+        Laitteistona oma Energiset-ilmalämmityskoje.(Valmistajana Upo?). Yritys
         toimii Lahden seudulla. Vesilämpöpatteriston lämmitys voidaan hoitaa
         sekä sähköllä että vedellä.
     </Container>
