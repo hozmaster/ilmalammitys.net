@@ -9,10 +9,8 @@ import {HttpLink} from "../../Components/HttpLink";
 export const HLHeat = () => <div>
     <Header style={{marginTop: "2em"}} as={'h4'}> HLHeat Oy </Header>
     <Container textAlign={"justified"}>
-        Tarjoaa
-        vaihtoehtoa olemassaoleviin sekä uusiin ilmalämmityskohteisiin ilmalämmityspakettia 'High Light Smart System'.
-        <br/>
-        Laitteistona oma Energiset-ilmalämmityskoje.(Valmistajana Upo?). Yritys
+        Tarjoaa vaihtoehtoa olemassaoleviin sekä uusiin ilmalämmityskohteisiin ilmalämmityspakettia 'High Light Smart
+        System'. Laitteistona oma Energiset-ilmalämmityskoje.(Valmistajana Upo?). Yritys
         toimii Lahden seudulla. Vesilämpöpatteriston lämmitys voidaan hoitaa
         sekä sähköllä että vedellä.
     </Container>
