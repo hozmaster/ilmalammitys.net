@@ -10,14 +10,11 @@ export const HLHeat = () => <div>
     <Header style={{marginTop: "2em"}} as={'h4'}> HLHeat Oy </Header>
     <Container textAlign={"justified"}>
         Tarjoaa
-        vaihtoehtoa olemassaoleviin sekä uusiin ilmalämmityskohteisiin.
-        Ilmalämmityspaketin 'High Light Smart System'.
+        vaihtoehtoa olemassaoleviin sekä uusiin ilmalämmityskohteisiin ilmalämmityspakettia 'High Light Smart System'.
         <br/>
         Laitteistona Energiset-ilmalämmityskoje.(Valmistajana Upo?) Yritys
-        toimii Lahden
-        seudulla.
-        Vesilämpöpatteriston lämmitys voidaan hoitaa sekä sähköllä että
-        vedellä.
+        toimii Lahden seudulla. Vesilämpöpatteriston lämmitys voidaan hoitaa
+        sekä sähköllä että vedellä.
     </Container>
     <HttpLink url={"https://hl-heat.fi/"} text={'https://hl-heat.fi/'}/>
 </div>
