@@ -14,7 +14,7 @@ export const CentralHeating = () => <div>
         vesipatteristoon. Suomessa lämmönjakokeskuksen alajakokeskusten laitteiden valmistajia on jonkun verran
         markkinoilla. Tällöin lämmönjako
         Ilmalämmistystaloissa jotka on liitetty kaukolämpöverkostoon, lämmönjakokeskuksen tyyppi tulisi olla vähintään
-        ns. 2-piirinen. Tällöin lämmönsääätöä voidaan tehdä erikseen lämpimälle vedelle ilman että se häiritsee
+        ns. 2-piirinen. Tällöin lämmönsäätöä voidaan tehdä erikseen lämpimälle vedelle ilman että se häiritsee
         varsinaista huoneiston lämmitystä.</Container>
 
 </div>
