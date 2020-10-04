@@ -1,0 +1,52 @@
+{
+    "gadget": "Lämpösampo",
+    "model": "LS-4000",
+    "manufacturer": "Metsä-Ketelä Oy",
+    "status": "End of life",
+    "data": [
+        {
+            "title": "Esitteet ja muut dokumentaatio",
+            "class": "Manuals",
+            "files": [
+                {
+                    "file": "lämpösampo_esite.pdf",
+                    "title": "Esite"
+                },
+                {
+                    "file": "lämpösampo_asennuskuvat.pdf",
+                    "title": "Asennuskuvat"
+                },
+                {
+                    "title": "Kansilehti",
+                    "file": "lämpösampo_kansilehti.pdf"
+                },
+                {
+                    "title": "Selotus 1",
+                    "file": "lämpösampo_selostus_1.pdf"
+                },
+                {
+                    "title": "Selostus 2",
+                    "file": "lämpösampo_selostus_2.pdf"
+                }
+            ]
+        },
+        {
+            "title": "Tekninen dokumentaatio",
+            "class": "technical",
+            "files": [
+                {
+                    "title": "Hyötysuhde kaaviota",
+                    "file": "lämpösampo_hyötysuhde.pdf"
+                },
+                {
+                    "title": "Ohjauskeskuksen toimintaselostus",
+                    "file": "lämpösampo_ohjauskeskus-toimintaselostus.pdf"
+                },
+                {
+                    "title": "Kytkäkaaviot",
+                    "file": "lämpösampo_kytkentäkaaviot.pdf"
+                }
+            ]
+        }
+    ]
+}
