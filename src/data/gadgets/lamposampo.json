@@ -3,6 +3,7 @@
     "model": "LS-4000",
     "manufacturer": "Metsä-Ketelä Oy",
     "status": "End of life",
+    "folder": "lämpösampo_ls_4000/",
     "data": [
         {
             "title": "Esitteet ja muut dokumentaatio",
