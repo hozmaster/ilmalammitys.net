@@ -236,6 +236,7 @@
             }
         ]
     },
+
     {
         "gadget": "Valmet Kotilämpö F1000S",
         "data": [
@@ -342,6 +343,59 @@
         ]
     },
     {
+        "gadget": "Lämpösampo LS-4000",
+        "model": "LS-4000",
+        "manufacturer": "Metsä-Ketelä Oy",
+        "status": "End of life",
+        "folder": "lämpösampo_ls_4000/",
+        "data": [
+            {
+                "title": "Esitteet ja muut dokumentaatio",
+                "class": "Manuals",
+                "files": [
+                    {
+                        "url": "/assets/lämpösampo_ls_4000/lämpösampo_esite.pdf",
+                        "title": "Esite"
+                    },
+                    {
+                        "url": "/assets/lämpösampo_ls_4000/lämpösampo_asennuskuvat.pdf",
+                        "title": "Asennuskuvat"
+                    },
+                    {
+                        "title": "Kansilehti",
+                        "url": "/assets/lämpösampo_ls_4000/lämpösampo_kansilehti.pdf"
+                    },
+                    {
+                        "title": "Selotus 1",
+                        "url": "/assets/lämpösampo_ls_4000/lämpösampo_selostus_1.pdf"
+                    },
+                    {
+                        "title": "Selostus 2",
+                        "url": "/assets/lämpösampo_ls_4000/lämpösampo_selostus_2.pdf"
+                    }
+                ]
+            },
+            {
+                "title": "Tekninen dokumentaatio",
+                "class": "technical",
+                "files": [
+                    {
+                        "title": "Hyötysuhde kaaviota",
+                        "url": "/assets/lämpösampo_ls_4000/lämpösampo_hyötysuhde.pdf"
+                    },
+                    {
+                        "title": "Ohjauskeskuksen toimintaselostus",
+                        "url": "/assets/lämpösampo_ls_4000/lämpösampo_ohjauskeskus-toimintaselostus.pdf"
+                    },
+                    {
+                        "title": "Kytkäkaaviot",
+                        "url": "/assets/lämpösampo_ls_4000/lämpösampo_kytkentäkaaviot.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "gadget": "Energiset OSY",
         "data": [
             {
@@ -387,6 +441,7 @@
             }
         ]
     },
+
     {
         "gadget": "Honeywell",
         "data": [
