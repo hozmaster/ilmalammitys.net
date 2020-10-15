@@ -1,0 +1,16 @@
+{
+    "version" : "1.10",
+    "last_modification" : "15.10.2020",
+    "changes": [
+        {
+            "reason" : "Lisätty Lämpösampo LS-4000 laitteen dokumentaatiota Tiedostot-sivulle",
+            "date" : "10.10.2020",
+            "version": "1.10"
+        },
+        {
+            "reason" : "Uudistetut sivut julkaistu",
+            "date" : "01.06.2020",
+            "version": "1.0"
+        }
+    ]
+}
