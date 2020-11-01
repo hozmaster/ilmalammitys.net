@@ -17,10 +17,9 @@ const ChangeHistory = () => (
     <>
         <Popup
             content={history[0].reason}
-            key={history[0].date}
-            header={history[0].version}
-            trigger={  <Label as='a'>
-                Versio 1.10</Label>
+            key={history[0].version}
+            header={history[0].date}
+            trigger={  <a href={'#'} > v1.10 </a>
             }
         />
     </>

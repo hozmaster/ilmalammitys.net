@@ -6,9 +6,10 @@ import ChangeHistory from "../Pages/ChangeHistory/ChangeHistory";
 
 const Footer = () =>
     <div className="ui basic center aligned segment" >
-        <ChangeHistory/> Olli-Pekka Wallin (c) 2013 - 2020
+        Olli-Pekka Wallin (c) 2013 - 2020
         <p>
             info (at) ilmalammitys dot net  <br/>
+            <ChangeHistory/>
         </p>
         <div> <p></p></div>
     </div>
